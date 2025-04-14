@@ -48,7 +48,7 @@ This is a highly customisable simple whatsapp bot with group management features
   
 ## ` Pair onrender`
 <p align="centre">
-<a href="https://https://prime-md-pairing.onrender.com/"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
+<a href="https://prime-md-pairing.onrender.com/"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
 <p/>
             
 
