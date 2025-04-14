@@ -18,9 +18,15 @@
      "bot-md", 
      "whatsapp-multi-device" 
    ], 
+
+   
    "base": "https://github.com/DikaArdnt/Hisoka-Morou", 
    "author": "PRIME TECH",
    "license": "MIT", 
+   "engines": {
+  "node": "22.x",
+  "npm": "10.x"
+},
    "dependencies": { 
      "@whiskeysockets/baileys": "^6.7.16",
      "@adiwajshing/keyed-db": "^0.2.4", 
@@ -57,9 +63,8 @@
      "node-fetch-commonjs": "^3.3.2",
      "javascript-obfuscator": "^4.1.0",
      "heroku-client": "3.1.0",
-     "node-fetch": "^2.6.1",  
-     "crypto": "^1.0.1", 
-     "child-process": "^1.0.2", 
+     "crypto": "^1.0.1",
+     "child-process": "^1.0.2",
      "jimp": "^0.16.13",
      "human-readable": "^0.2.1", 
      "quickmongo": "^5.2.0", 
