@@ -28,7 +28,7 @@
 <a href="https://api.whatsapp.com/send?phone=254741071005&text=Hello+Prime+dev+i+need+your+Help+on..."><img src="https://img.shields.io/badge/Contact-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/whiskeysockets/Baileys)***
+***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)***
 
 
 ## DISCLAIMER
