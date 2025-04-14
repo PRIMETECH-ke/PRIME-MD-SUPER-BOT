@@ -4,7 +4,7 @@
   "keywords": [
     "bot",
     "whatsapp",
-    "prime",
+    "raven",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -28,7 +28,7 @@
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254741071005,..  ",
       "required": true
     },
-    "ANTIDELETE": {
+   "ANTIDELETE": {
       "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
       "value": "TRUE",
       "required": false
@@ -50,7 +50,7 @@
       "required": true
     },
     "BAD_WORD": {
-      "description": "List words separated with commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
+      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
       "value": "fuck,pussy,slut,bitch,cock,stupid",
       "required": false
     },
@@ -124,10 +124,12 @@
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
+      "value": "RAVEN-BOT",
       "required": false
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
+      "value": "RAVEN-BOT",
       "required": false
 },
  "GPT_INBOX": {
