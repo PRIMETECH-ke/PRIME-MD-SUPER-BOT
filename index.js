@@ -2,7 +2,7 @@
 
 const {
   default: primeConnect,
-  useMultiFileAuthState,
+ useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
   makeInMemoryStore,
@@ -30,8 +30,8 @@ const currentTime = Date.now();
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/primeexif');
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/primefunc');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/ravenexif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/ravenfunc');
 const { sessionName, session, autobio, autolike, port, mycode, anticall, mode, prefix, antiforeign, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const color = (text, color) => {
@@ -72,7 +72,7 @@ async function startPrime() {
     }, 10 * 1000);
   }
 
-  store.bind(client.ev);
+store.bind(client.ev);
 
   client.ev.on("messages.upsert", async (chatUpdate) => {
     try {
@@ -89,15 +89,15 @@ async function startPrime() {
         const emojis = ['🗿', '⌚️', '💠', '👣', '🍆', '💔', '🤍', '❤️‍🔥', '💣', '🧠', '🦅', '🌻', '🧊', '🛑', '🧸', '👑', '📍', '😅', '🎭', '🎉', '😳', '💯', '🔥', '💫', '🐒', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🦄', '🟢', '🎎', '✅', '🥱', '🌚', '💚', '💕', '😉', '😒'];
         const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
         const delayMessage = 2000;
-        await client.sendMessage(mek.key.remoteJid, { react: { text: randomEmoji, key: mek.key, } }, { statusJidList: [mek.key.participant, prime] });
+        await client.sendMessage(mek.key.remoteJid, { react: { text: randomEmoji, key: mek.key, } }, { statusJidList: [mek.key.participant, nickk] });
         await sleep(delayMessage);
    console.log('Reaction sent successfully✅️');
           }
             
 if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       let m = smsg(client, mek, store);
-      const prime = require("./prime");
-      prime(client, m, chatUpdate, store);
+      const raven = require("./raven");
+      raven(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
