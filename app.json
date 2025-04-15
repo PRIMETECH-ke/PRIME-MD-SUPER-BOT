@@ -1,6 +1,7 @@
+
 {
-  "name": "PRIME-BOT",
-  "description": "A simple yet complicated WhatsApp bot, ♤Enjoy♡",
+  "name": "𝗣𝗥𝗜𝗠𝗘 𝗠𝗗",
+  "description": "I am Prime Tech, The best Developer in the world!, ♤Enjoy♡ my Super Bot",
   "keywords": [
     "bot",
     "whatsapp",
@@ -14,35 +15,32 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT#readme",
-  "repository": "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT.git",
-  "logo": "https://files.catbox.moe/qhjz93.png",
+  "website": "https://github.com/HunterNick2/RAVEN-BOT#readme",
+  "repository": "https://github.com/HunterNick2/RAVEN-BOT.git",
+  "logo": "https://telegra.ph/file/eebe191a0520a79979b34.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of PRIME-BOT Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "𝗣𝗥𝗜𝗠𝗘 𝗠𝗗 Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254741071005,..  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254741071005,27849544670   ",
       "required": true
     },
-   "ANTIDELETE": {
+      "ANTIDELETE": {
       "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
-      "value": "TRUE",
       "required": false
     },
     
     
     "AUTOREJECT_CALL": {
       "description": "Put TRUE if you want bot to decline all incoming calls",
-      "value": "TRUE",
       "required": false
     },
     "ANTIFOREIGN": {
       "description": "Input TRUE if you want bot to automatically remove foreigners who are not from your country code joining a group",
-      "value": "FALSE",
       "required": false
     },
     "HEROKU_API": {
@@ -51,12 +49,10 @@
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
-      "value": "fuck,pussy,slut,bitch,cock,stupid",
       "required": false
     },
     "BAD_WORD_KICK": {
       "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
-      "value": "TRUE",
       "required": false
     },
     "ANTITAG": {
@@ -65,17 +61,14 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "value": "FALSE",
       "required": true
 },
  "AUTOVIEW": {
       "description": "Input TRUE if you want bot to automatically read status update",
-      "value": "TRUE",
       "required": true
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
-      "value": "recording",
       "required": true
 },
  "WELCOMEGOODBYE": {
@@ -85,13 +78,11 @@
 },
    
  "ANTILINK": {
-      "description": "Input TRUE if you want bot to kick link senders only whatsapp group links",
-      "value": "TRUE",
+      "description": "Input TRUE if you want bot to kick link senders",
       "required": true
 },
  "ANTILINK_ALL": {
-      "description": "Input TRUE if you want bot to kick users sending any kind of link.",
-      "value": "FALSE",
+      "description": "Input TRUE if you want bot to kick users sending any links.",
       "required": true
 },
  "ANTIBOT": {
@@ -104,18 +95,16 @@
       "required": true
 },
  "SESSION": {
-      "description": "Paste your Session id you received after linking here, as it is required for authenticationn. important!",
+      "description": "Paste your Session id here, as it is required for authenticationn.",
       "required": true
 },
  "MODE": {
       "description": "Input PRIVATE if you don't want other people to use your bot",
-      "value": "PUBLIC",
       "required": true
     },
     
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
-      "value": "TRUE",
       "required": false
 },
  "APP_NAME": {
@@ -124,12 +113,10 @@
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
-      "value": "RAVEN-BOT",
       "required": false
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
-      "value": "RAVEN-BOT",
       "required": false
 },
  "GPT_INBOX": {
@@ -138,7 +125,6 @@
 },
  "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
-      "value": "IMAGE",
       "required": false
 
     
@@ -146,7 +132,6 @@
     },
     "AUTOLIKE_STATUS": {
       "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
-      "value": "TRUE",
       "required": false
     }
   },
