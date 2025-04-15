@@ -55,7 +55,7 @@ Linking/Pairing:
 </p>
 
 <p align="centre">
-  <img src="https://files.catbox.moe/c7ump7.png" width="400"/> 
+  <img src="https://files.catbox.moe/c7ump7.png"lenght=50width=50/> 
 </p>
 
 <p/>
