@@ -75,7 +75,7 @@ Linking/Pairing:
      
 
 <p align="center">
-  <img src="https://files.catbox.moe/w2mhje.gif" width="400"/> 
+  <img src="https://files.catbox.moe/w2mhje.gif" lenght=200width=200/> 
 </p>
   
  
