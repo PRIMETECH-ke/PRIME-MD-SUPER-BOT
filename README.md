@@ -51,6 +51,10 @@ Linking/Pairing:
 <p align="centre">
 <a href="https://prime-md-pairing.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
 
+
+</p>
+
+<p align="centre">
   <img src="https://files.catbox.moe/c7ump7.png" width="400"/> 
 </p>
 
