@@ -10,7 +10,7 @@
 [![Prime Tech](https://files.catbox.moe/o2ku1n.jpeg?lenght=50width=50)](https://github.com/PRIMETECH-ke)
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=olive&center=true&vCenter=true&multiline=false&lines=PRIME+MD+SUPER+WHATSAPP+BOT" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=fuchsia&center=true&vCenter=true&multiline=false&lines=PRIME+MD+SUPER+WHATSAPP+BOT" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/DEVELOPER-𝑷𝑹𝑰𝑴𝑬_𝑻𝑬𝑪𝑯-pink.svg?style=for-the-badge&logo=github"></a>
