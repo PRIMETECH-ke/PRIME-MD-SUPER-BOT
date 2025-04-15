@@ -26,7 +26,7 @@
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254741071005&text=Hello+Prime+dev+i+need+your+Help+on...༆"><img src="https://img.shields.io/badge/Contact 𝑷𝑹𝑰𝑴𝑬_𝑻𝑬𝑪𝑯  ༆-lime?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254741071005&text=Hello+Prime+dev+i+need+your+Help+on...༆"><img src="https://img.shields.io/badge/Contact 𝑷𝑹𝑰𝑴𝑬_𝑻𝑬𝑪𝑯  ༆-teal?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)***
