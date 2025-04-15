@@ -1,7 +1,7 @@
 # 𝗣𝗥𝗜𝗠𝗘-𝗠𝗗-𝗕𝗢𝗧
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗣𝗥𝗜𝗠𝗘+𝗧𝗘𝗖𝗛+𝗠𝗗+𝗦𝗨𝗣𝗘𝗥+𝗕𝗢𝗧)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗣𝗥𝗜𝗠𝗘+𝗧𝗘𝗖𝗛+𝗠𝗗+𝗦𝗨𝗣𝗘𝗥+𝗕𝗢𝗧)](https://git.io/typing-svg)
 
 
   
