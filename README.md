@@ -1,6 +1,9 @@
 # 𝗣𝗥𝗜𝗠𝗘-𝗠𝗗-𝗕𝗢𝗧
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=THIS+IS+𝗣𝗥𝗜𝗠𝗘+𝗧𝗘𝗖𝗛+𝗠𝗗+𝗦𝗨𝗣𝗘𝗥+𝗕𝗢𝗧;MULTI+DEVICE+WHATSAPP+BOT;CODED+BY+PRIME TECHke;PUBLIC+RELEASED; ...;CLUB PRIME+MD.")](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
+
+
   
 <p align="center">
 
