@@ -1,6 +1,6 @@
 { 
-   "name": "RAVEN-BOT", 
-   "version": "3.0.0", 
+   "name": "RAVEN-AI", 
+   "version": "2.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
    "type": "commonjs", 
@@ -58,7 +58,7 @@
      "javascript-obfuscator": "^4.1.0",
      "heroku-client": "3.1.0",
      "node-fetch": "^2.6.1",
-     "node-catbox": "3.2.0",
+     "node-catbox": "3.2.0",  
      "crypto": "^1.0.1", 
      "child-process": "^1.0.2", 
      "jimp": "^0.16.13",
