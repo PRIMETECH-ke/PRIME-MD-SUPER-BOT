@@ -1,7 +1,6 @@
 # 𝗣𝗥𝗜𝗠𝗘-𝗠𝗗-𝗕𝗢𝗧
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS  IS+PRIME SUPER BOT;MULTI+DEVICE+WHATSAPP+BOT;CODED+BY+PRIME TECHke;PUBLIC+RELEASED; ...;CLUB PRIME+MD." alt="Typing SVG" /></a>
-  </p>
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines==THIS  IS+𝗣𝗥𝗜𝗠𝗘 𝗧𝗘𝗖𝗛 𝗠𝗗 𝗦𝗨𝗣𝗘𝗥 𝗕𝗢𝗧;MULTI+DEVICE+WHATSAPP+BOT;CODED+BY+PRIME TECHke;PUBLIC+RELEASED; ...;CLUB PRIME+MD.")](https://git.io/typing-svg)
   
 <p align="center">
 
