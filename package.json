@@ -88,10 +88,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/HunterNick2/RAVEN-BOT.git" 
+     "url": "git+https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/HunterNick2/RAVEN-BOT/issues" 
+     "url": "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/issues" 
    }, 
-   "homepage": "https://github.com/HunterNick2/RAVEN-BOT#readme" 
+   "homepage": "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT#readme" 
    }
