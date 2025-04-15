@@ -1,6 +1,6 @@
 
 {
-  "name": "𝗣𝗥𝗜𝗠𝗘 𝗠𝗗",
+  "name": "𝗣𝗥𝗜𝗠𝗘 𝗕𝗢𝗧",
   "description": "I am Prime Tech, The best Developer in the world!, ♤Enjoy♡ my Super Bot",
   "keywords": [
     "bot",
@@ -15,18 +15,18 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/HunterNick2/RAVEN-BOT#readme",
-  "repository": "https://github.com/HunterNick2/RAVEN-BOT.git",
+  "website": "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT#readme",
+  "repository": "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT.git",
   "logo": "https://telegra.ph/file/eebe191a0520a79979b34.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "𝗣𝗥𝗜𝗠𝗘 𝗠𝗗 Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "𝗣𝗥𝗜𝗠𝗘 𝗕𝗢𝗧 Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254741071005,27849544670   ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254741071xxx,27849544670   ",
       "required": true
     },
       "ANTIDELETE": {
