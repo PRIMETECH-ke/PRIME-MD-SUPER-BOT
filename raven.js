@@ -810,7 +810,7 @@ const fetch = require("node-fetch");
                     }
                 );
 RAVEN
-                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *-BOT* unleashed upon you.");
+                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *PRIME-BOT* unleashed upon you.");
                 console.log("Build details:", response.data);
             } catch (error) {
                 const errorMessage = error.response?.data || error.message;
@@ -3180,7 +3180,7 @@ const title = data.result.title;
 //========================================================================================================================//		      
  case 'sc': case 'script': case 'repo':
 
- client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/416c3ae0cfe59be8db011.jpg` }, caption: 
+ client.sendMessage(m.chat, { image: { url: `https://files.catbox.moe/o2ku1n.jpeg` }, caption: 
 ` Hello👋 *${pushname}*,You can deploy 𝗣𝗥𝗜𝗠𝗘-𝗕𝗢𝗧 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT\n\nLink with your whatsapp using pairing link below\n\nhttps://prime-md-pairing.onrender.com/\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗣𝗥𝗜𝗠𝗘 𝗕𝗢𝗧░\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!`},{quoted : m });
 
    break;
