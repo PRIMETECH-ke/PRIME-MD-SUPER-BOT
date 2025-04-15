@@ -3,8 +3,6 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗣𝗥𝗜𝗠𝗘+𝗧𝗘𝗖𝗛+𝗠𝗗+𝗦𝗨𝗣𝗘𝗥+𝗕𝗢𝗧;𝗕𝗬+𝗣𝗿𝗶𝗺𝗲+𝗧𝗲𝗰𝗵𝚔𝚎;𝔸+𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ+𝗠𝗨𝗟𝗧𝗜+𝔻𝔼𝕍𝕀ℂ𝔼+𝔹𝕆𝕋;𝗦𝗰𝗿𝗶𝗽𝘁𝗲𝗱+𝗕𝘆+🅿︎🆁🅸🅼🅴+🆃🅴🅲🅷🇰🇪)](https://git.io/typing-svg)
 
-
-  
 <p align="center">
 
 [![Prime Tech](https://files.catbox.moe/o2ku1n.jpeg?lenght=50width=50)](https://github.com/PRIMETECH-ke)
@@ -23,11 +21,11 @@
 </p>
  
 
-## ` Contact me`
+## ```CONTACT ME```
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254741071005&text=Hello+Prime+dev+i+need+your+Help+on..."><img src="https://img.shields.io/badge/Contact-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254741071005&text=Hello+Prime+dev+i+need+your+Help+on...༆"><img src="https://img.shields.io/badge/Contact 𝑷𝑹𝑰𝑴𝑬_𝑻𝑬𝑪𝑯  ༆-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)***
@@ -42,21 +40,22 @@ This is a highly customisable simple whatsapp bot with group management features
 
 # SET-UP
 
-## ` Fork this repository`
+## ` Fork this repo`
 <p align="centre">
-<a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻" width="160"></a>
+<a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻" width="160"></a>
 <p/>
-
   
+Linking/Pairing:
 ## ` Pair onrender`
 <p align="centre">
-<a href="https://prime-md-pairing.onrender.com/"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
+<a href="https://prime-md-pairing.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
 <p/>
             
 
-###  ` Deploy On Heroku`
+###  𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨:
 
 
+ 
  ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT&template=https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT.git)***
  
 
@@ -75,7 +74,8 @@ This is a highly customisable simple whatsapp bot with group management features
 
 ## License
 
-[MIT License](https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/blob/main/LICENSE)
+[MIT License]((https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)/LICENSE)
 
-Copyright (c) 2025 𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻
+Copyright (c) 2025  𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻 
+
 
