@@ -74,18 +74,22 @@ Linking/Pairing:
  </h2>
      
 
-<p align="center">
-  <img src="https://files.catbox.moe/w2mhje.gif" lenght=200width=200/> 
-</p>
+
   
  
-
-
 
 
 
 ## License
 
 [MIT License]((https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)/LICENSE)
+
+
+
+<p align="center">
+  <img src="https://files.catbox.moe/w2mhje.gif" lenght=200width=200/> 
+</p>
+
+
 
 Copyright (c) 2025  𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻
