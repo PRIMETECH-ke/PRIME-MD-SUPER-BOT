@@ -75,7 +75,9 @@ Linking/Pairing:
      
 
 
-  
+  <p align="center">
+  <img src="https://files.catbox.moe/w2mhje.gif" lenght=200width=200/> 
+</p>
  
 
 
@@ -83,12 +85,6 @@ Linking/Pairing:
 ## License
 
 [MIT License]((https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)/LICENSE)
-
-
-
-<p align="center">
-  <img src="https://files.catbox.moe/w2mhje.gif" lenght=200width=200/> 
-</p>
 
 
 
