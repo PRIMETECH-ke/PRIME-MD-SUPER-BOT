@@ -3150,7 +3150,7 @@ const title = data.result.title;
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/r8kOSWg.png` }, caption: 
-` Hello👋 *${pushname}*,𝗬𝗢𝗨 𝗖𝗔𝗡 𝗗𝗘𝗣𝗟𝗢𝗬 🅟🅡🅘🅜🅔 🅜🅓 🅢🅤🅟🅔🅡 🅑🅞🅣 𝗨𝗦𝗜𝗡𝗚 𝗧𝗛𝗘 𝗟𝗜𝗡𝗞 𝗕𝗘𝗟𝗢𝗪 𓅂\n\n𝔽𝕆ℝ𝕂 𝔸ℕ𝔻 𝔾𝕀𝕍𝔼 𝕌𝕊 𝔸 𝕊𝕋𝔸ℝ✨.\n\n https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT\n\nL𝙸𝙽𝙺 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙴 𝙿𝙰𝙸𝚁𝙸𝙽𝙶 L𝙸𝙽𝙺 𝙱𝙴𝙻𝙾𝚆👇🏻👇🏻\n\nhttps://prime-md-pairing.onrender.com\n\n𝗖𝗢𝗣𝗬 𝗧𝗛𝗘 𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗜𝗗 𝗔𝗡𝗗 𝗙𝗜𝗟𝗟 𝗜𝗡 𝗧𝗛𝗘 𝗥𝗘𝗤𝗨𝗜𝗥𝗘𝗗 𝗩𝗔𝗥𝗜𝗔𝗕𝗟𝗘𝗦 𝗕𝗘𝗙𝗢𝗥𝗘 𝗨 𝗗𝗘𝗣𝗟𝗢𝗬\n\n🅔🅝🅙🅞🅨 🅐🅝🅓 🅗🅐🅥🅔 🅕🅤🅝 🅦🅘🅣🅗 ⓅⓇⒾⓂ︎Ⓔ ⓈⓊⓅⒺⓇ ⒷⓄⓉ\n\n𝑴𝑨𝑫𝑬 𝑰𝑵 𝑲𝑬𝑵𝒀𝑨 𝑩𝒀 𝗣𝗥𝗜𝗠𝗘 𝗧𝗘𝗖𝗛👨‍💻!`},{quoted : m });
+` Hello👋 *${pushname}*,𝗬𝗢𝗨 𝗖𝗔𝗡 𝗗𝗘𝗣𝗟𝗢𝗬 PRIME BOT 𝗨𝗦𝗜𝗡𝗚 𝗧𝗛𝗘 𝗟𝗜𝗡𝗞 𝗕𝗘𝗟𝗢𝗪𓅂\n\n𝔽𝕆ℝ𝕂 𝔸ℕ𝔻 𝔾𝕀𝕍𝔼 𝕌𝕊 𝔸 𝕊𝕋𝔸ℝ✨.\n\n https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT\n\nL𝙸𝙽𝙺 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙴 𝙿𝙰𝙸𝚁𝙸𝙽𝙶 CODE 𝙱𝙴𝙻𝙾𝚆👇🏻👇🏻\n\nhttps://prime-md-pairing.onrender.com\n\n𝗖𝗢𝗣𝗬 𝗧𝗛𝗘 𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗜𝗗 𝗔𝗡𝗗 𝗙𝗜𝗟𝗟 𝗜𝗡 𝗧𝗛𝗘 𝗥𝗘𝗤𝗨𝗜𝗥𝗘𝗗 𝗩𝗔𝗥𝗜𝗔𝗕𝗟𝗘𝗦 𝗕𝗘𝗙𝗢𝗥𝗘 𝗨 𝗗𝗘𝗣𝗟𝗢𝗬\n\n🅔🅝🅙🅞🅨 🅐🅝🅓 🅗🅐🅥🅔 🅕🅤🅝 🅦🅘🅣🅗 𝑷𝑹𝑰𝑴𝑬 𝐁𝐎𝐓\n\n𝗠𝗮𝗱𝗲 In Kenya 𝗯𝘆 𝑷𝑹𝑰𝑴𝑬 𝑻𝑬𝑪𝑯👨‍💻!`},{quoted : m });
 
    break;
                                                   
