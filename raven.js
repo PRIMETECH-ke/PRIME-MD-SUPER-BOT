@@ -3149,8 +3149,8 @@ const title = data.result.title;
 //========================================================================================================================//		      
  case 'sc': case 'script': case 'repo':
 
- client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/r8kOSWg.png` }, caption: 
-` Hello👋 *${pushname}*,YOU CAN DEPLOY 𝗣𝗥𝗜𝗠𝗘-𝗕𝗢𝗧 USING THE LINK BELOW𓅂\n\n🅵🅾🆁🅺 🅰🅽🅳 🅶🅸🆅🅴 🆄🆂 🅰 🆂🆃🅰🆁✨.\n\nhttps://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT\n\nLINK WITH YOUR WHATSAPP USING THE PAIRING CODE BELOW👇🏻👇🏻\n\nhttps://prime-md-pairing.onrender.com/\n\nCopy the session_id and Fill in the required Variables before Deploy\n\n🅴🅽🅹🅾🆈 😊 🅰🅽🅳  🅷🅰🆅🅴 🅵🆄🅽 🆆🅸🆃🅷 𝑷𝑹𝑰𝑴𝑬 𝐁𝐎𝐓\n\n𝗠𝗮𝗱𝗲 In Kenya 𝗯𝘆 𝑷𝑹𝑰𝑴𝑬 𝑻𝑬𝑪𝑯👨‍💻!`},{quoted : m });
+ client.sendMessage(m.chat, { image: { url: `https://files.catbox.moe/ofylbc.jpg` }, caption: 
+` Hello👋 *${pushname}*,YOU CAN DEPLOY 𝗣𝗥𝗜𝗠𝗘-𝗕𝗢𝗧 USING THE LINK BELOW 𓅂\n\nFORK AND GIVE US A STAR✨.\n\n https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT\n\nLINK WITH YOUR WHATSAPP USING THE PAIRING CODE BELOW👇🏻👇🏻\n\nhttps://prime-md-pairing.onrender.com\n\nCopy the session_id and Fill in the required Variables before Deploy\n\n🅴🅽🅹🅾🆈 😊 🅰🅽🅳  🅷🅰🆅🅴 🅵🆄🅽 🆆🅸🆃🅷 𝑷𝑹𝑰𝑴𝑬 𝐁𝐎𝐓\n\n𝗠𝗮𝗱𝗲 In Kenya 𝗯𝘆 𝑷𝑹𝑰𝑴𝑬 𝑻𝑬𝑪𝑯👨‍💻!`},{quoted : m });
 
    break;
                                                   
