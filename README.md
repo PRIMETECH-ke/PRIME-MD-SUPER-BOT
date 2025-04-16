@@ -39,6 +39,12 @@
 This is a highly customisable simple whatsapp bot with group management features and few media commands and chatgpt courtesy of Openai.
 
 
+ᴄʟɪᴄᴋ ᴡᴀ ʟᴏɢᴏ ᴛᴏ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👇 
+<br> [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://whatsapp.com/channel/0029VaxTo8S7tkj6WyqTSs1p)
+  <div align="center"  >
+<h4 align="center">PLUGINS</h1>
+
+    
 # SET-UP
 
 ## ` Fork this repo`
