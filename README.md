@@ -4,6 +4,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗣𝗥𝗜𝗠𝗘+𝗧𝗘𝗖𝗛+𝗠𝗗+𝗦𝗨𝗣𝗘𝗥+𝗕𝗢𝗧;𝗕𝗬+𝗣𝗿𝗶𝗺𝗲+𝗧𝗲𝗰𝗵𝚔𝚎;𝔸+𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ+𝗠𝗨𝗟𝗧𝗜+𝔻𝔼𝕍𝕀ℂ𝔼+𝔹𝕆𝕋;𝗦𝗰𝗿𝗶𝗽𝘁𝗲𝗱+𝗕𝘆+🅿︎🆁🅸🅼🅴+🆃🅴🅲🅷🇰🇪)](https://git.io/typing-svg)
   </p>
 
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
+
+ 
 <p align="center">
 
 [![Prime Tech](https://files.catbox.moe/o2ku1n.jpeg?lenght=50width=50)](https://github.com/PRIMETECH-ke)
@@ -95,3 +98,5 @@
 
 
 Copyright (c) 2025  𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻
+
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
