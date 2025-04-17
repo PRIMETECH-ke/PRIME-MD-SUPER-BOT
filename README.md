@@ -47,7 +47,7 @@
 
 
 
-   <a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=green&style=for-the-badge&logo=mazda" width="297" height="40.45"/></a></p>
+   <a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/fork"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=green&style=for-the-badge&logo=mazda" width="297" height="40.45"/></a></p>
   
 
  
