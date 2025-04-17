@@ -95,7 +95,7 @@
 
 ## License
 
-[MIT License]((https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)/LICENSE)
+[MIT License](https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/blob/main/LICENSE)
 
 
 
