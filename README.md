@@ -29,16 +29,6 @@
 <a href="https://api.whatsapp.com/send?phone=254741071005&text=Hello+Prime+dev+i+need+your+Help+on...༆"><img src="https://img.shields.io/badge/Contact 𝑷𝑹𝑰𝑴𝑬_𝑻𝑬𝑪𝑯  ༆-teal?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT)***
-
-
-## DISCLAIMER
-- Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
-
-## FEATURES
-This is a highly customisable simple whatsapp bot with group management features and few media commands and chatgpt courtesy of Openai.
-
-
 ᴄʟɪᴄᴋ ᴡᴀ ʟᴏɢᴏ ᴛᴏ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👇 
 <br> [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://whatsapp.com/channel/0029VaxTo8S7tkj6WyqTSs1p)
   <div align="center"  >
@@ -46,6 +36,10 @@ This is a highly customisable simple whatsapp bot with group management features
 
     
 ## HOW TO GET CONNECTED TO PRIME-MD SUPER BOT
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
+
+
 
    <a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=green&style=for-the-badge&logo=mazda" width="297" height="40.45"/></a></p>
   
