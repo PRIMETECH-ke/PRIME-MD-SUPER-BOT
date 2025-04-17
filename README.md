@@ -43,7 +43,7 @@
 ## HOW TO GET CONNECTED TO PRIME-MD SUPER BOT
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
+## ` FORK AND STAR THIS REPO`
 
 
 
@@ -52,7 +52,10 @@
 
  
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗦𝗘𝗦𝗦𝗜𝗢𝗡+𝗜𝗗+𝗦𝗜𝗧𝗘+𝗜𝗦+𝗛𝗘𝗥𝗘)](https://git.io/typing-svg)
+## `𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗 𝗦𝗜𝗧𝗘 𝗜𝗦 𝗛𝗘𝗥𝗘`
+
+
+## ` Pair onrender`
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=PAIR+ON+RENDER)](https://git.io/typing-svg)
 
