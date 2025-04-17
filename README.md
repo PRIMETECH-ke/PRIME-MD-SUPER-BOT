@@ -47,10 +47,7 @@ This is a highly customisable simple whatsapp bot with group management features
     
 # SET-UP
 
-## ` Fork this repo`
-<p align="centre">
-<a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻" width="160"></a>
-<p/>
+a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=green&style=for-the-badge&logo=mazda" width="297" height="40.45"/></a></p>
   
 Linking/Pairing:
 ## ` Pair onrender`
