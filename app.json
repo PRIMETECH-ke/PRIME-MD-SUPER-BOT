@@ -69,7 +69,7 @@
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
-      "required": true
+      "required": false
 },
  "WELCOMEGOODBYE": {
       "description": "Input TRUE if you want bot to welcome new members joining group or wave goodbye to members leaving a group.",
