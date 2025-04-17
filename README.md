@@ -75,7 +75,7 @@
 
  
  ***<a href="https://dashboard.heroku.com/new?button-url=https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT&template=https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT.git">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Tap to deploy on heroku" style="width: 250px; height: auto;">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Tap to deploy on heroku" style="width: 200px; height: auto;">
 </a>***
  
 
