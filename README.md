@@ -45,7 +45,7 @@ This is a highly customisable simple whatsapp bot with group management features
 <h4 align="center">PLUGINS</h1>
 
     
-# SET-UP
+## HOW TO GET CONNECTED TO PRIME-MD SUPER BOT
 
    <a href="https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=green&style=for-the-badge&logo=mazda" width="297" height="40.45"/></a></p>
   
