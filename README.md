@@ -99,6 +99,6 @@
 
 
 
-Copyright (c) 2025  𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻
-
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
+
+ <h1 align="center">Copyright (c) 2025  𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻</h1>
