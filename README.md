@@ -59,8 +59,7 @@
 
 
 <p align="centre">
-<a href="https://prime-md-pairing.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
-
+  <a href="https://prime-md-pairing.onrender.com"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=green&style=for-the-badge&logo=render" width="230" height="38.45"/></a></p>
 
 </p>
 
