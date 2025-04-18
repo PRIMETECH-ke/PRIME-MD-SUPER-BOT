@@ -89,7 +89,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
-     const maindev = '254741071005';
+     const maindev = '254114283550';
      const maindev2 = maindev.split(",");
      const date = new Date()  
      const timestamp = speed(); 
@@ -152,7 +152,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
 if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `░𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓 𝗔𝗡𝗧𝗜𝗗𝗘𝗟𝗘𝗧𝗘 𝗥𝗘𝗣𝗢𝗥𝗧░\n\n` +
+    let notificationText = `░𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓 𝗔𝗡𝗧𝗜𝗗𝗘𝗟𝗘𝗧𝗘 𝗥𝗘𝗣𝗢𝗥𝗧░\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`
 
     if (originalMessage.message?.conversation) {
@@ -343,7 +343,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
   //========================================================================================================================//
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -363,221 +363,221 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
       switch (command) {
         case "menu":
 		      await mp3d ()
-	
-let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘 ♻️𝗣𝗥𝗜𝗠𝗘 𝗕𝗢𝗧♻️ 〙═════╮
-┃💲╭═─────────────────═╮
-┃💲│ 𝗨𝘀𝗲𝗿 : ${m.pushName}
-┃💲│ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
-┃💲│ 𝗦𝗽𝗲𝗲𝗱 :   ${Rspeed.toFixed(4)} 𝗠𝘀
-┃💲│ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
-┃💲│ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32.95𝗚𝗕 𝗼𝗳 256𝗚𝗕
-┃💲│═════════════════════
-┃💲│╔═════════════╗
-┃💲│〘🇰🇪𝑷𝑹𝑰𝑴𝑬 𝑻𝑬𝑪𝑯 🇰🇪〙 
-┃💲│╚═════════════╝
-┃💲│═════════════════════
+		      
+let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘🕸️𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓🕸️〙═════╮
+┃✫╭═─────────────────═╮
+┃✬│🕸️ 𝗨𝘀𝗲𝗿 : ${m.pushName}
+┃✫│🕸️ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
+┃✫│🕸️ 𝗠𝗼𝗱𝗲 : ${mode}
+┃✯│🕸️ 𝗦𝗽𝗲𝗲𝗱 :   ${Rspeed.toFixed(4)} 𝗠𝘀
+┃✬│🕸️ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
+┃✫│🕸️ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32𝗚𝗕 𝗼𝗳 64𝗚𝗕
+┃✫│═════════════════════
+┃✬│🅼🅰🅳🅴 🅾🅽 🅴🅰🆁🆃🅷
+┃✬│🅲🅰🅻🅻 🅼🅴 🅰🆆🅴🆂🅾🅼🅴 
+┃✬│🅱🅻🅰🅲🅺🅼🅰🅲🅷🅰🅽🆃-🅼🅳
+┃✫│═════════════════════
 ╰══──────────────────══╯
-●════ 〘 🔅𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🔅 〙═──═●
+●════ 〘 ⚡𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗⚡ 〙═──═●
 ╭══───────◇───────══╮
-┃💲│ 𝗩𝗶𝗱𝗲𝗼
-┃💲│ 𝗣𝗹𝗮𝘆
-┃💲│ 𝗣𝗹𝗮𝘆2
-┃💲│ 𝗦𝗼𝗻𝗴
-┃💲│ 𝗦𝗼𝗻𝗴2
-┃💲│ 𝗙𝗯𝗱𝗹
-┃💲│ 𝗧𝗶𝗸𝘁𝗼𝗸
-┃💲│ 𝗧𝘄𝗶𝘁𝘁𝗲𝗿
-┃💲│ 𝗶𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺
-┃💲│ 𝗠𝗼𝘃𝗶𝗲
-┃💲│ 𝗟𝘆𝗿𝗶𝗰𝘀
-┃💲│ 𝗪𝗵𝗮𝘁𝘀𝗼𝗻𝗴
-┃💲│ 𝗬𝘁𝘀
-┃💲│ 𝗬𝘁𝗺𝗽3
-┃💲│ 𝗬𝘁𝗺𝗽4
+┃✬│ 🔵𝗩𝗶𝗱𝗲𝗼
+┃✫│ 🔵𝗣𝗹𝗮𝘆
+┃✬│ 🔵𝗣𝗹𝗮𝘆2
+┃✫│ 🔵𝗦𝗼𝗻𝗴
+┃✫│ 🔵𝗦𝗼𝗻𝗴2
+┃✬│ 🔵𝗙𝗯𝗱𝗹
+┃✫│ 🔵𝗧𝗶𝗸𝘁𝗼𝗸
+┃✬│ 🔵𝗧𝘄𝗶𝘁𝘁𝗲𝗿
+┃✫│ 🔵𝗶𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺
+┃✫│ 🔵𝗠𝗼𝘃𝗶𝗲
+┃✬│ 🔵𝗟𝘆𝗿𝗶𝗰𝘀
+┃✫│ 🔵𝗪𝗵𝗮𝘁𝘀𝗼𝗻𝗴
+┃✬│ 🔵𝗬𝘁𝘀
+┃✫│ 🔵𝗬𝘁𝗺𝗽3
+┃✬│ 🔵𝗬𝘁𝗺𝗽4
 ╰══───────◇───────══╯
-●═════  〘 🔅𝗘𝗗𝗜𝗧🔅 〙══───═●
+●═════  〘 ⚡𝗘𝗗𝗜𝗧⚡ 〙══───═●
 ╭══───────◇───────══╮
-┃♻️│ 𝗦𝘁𝗶𝗰𝗸𝗲𝗿
-┃♻️│ 𝗦𝗺𝗲𝗺𝗲
-┃♻️│ 𝗣𝗵𝗼𝘁𝗼
-┃♻️│ 𝗠𝗽4
-┃♻️│ 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗲
-┃♻️│ 𝗩𝘃
-┃♻️│ 𝗩𝘃2
-┃♻️│ 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁
-┃♻️│ 𝗠𝗶𝘅
-┃♻️│ 𝗧𝗮𝗸𝗲
-┃♻️│ 𝗧𝘄𝗲𝗲𝘁
-┃♻️│ 𝗤𝘂𝗼𝘁𝗲𝗹𝘆
+┃✫│ 🔴𝗦𝘁𝗶𝗰𝗸𝗲𝗿
+┃✬│ 🔴𝗦𝗺𝗲𝗺𝗲
+┃✫│ 🔴𝗣𝗵𝗼𝘁𝗼
+┃✫│ 🔴𝗠𝗽4
+┃✬│ 🔴𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗲
+┃✫│ 🔴𝗩𝘃
+┃✫│ 🔴𝗩𝘃2
+┃✬│ 🔴𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁
+┃✫│ 🔴𝗠𝗶𝘅
+┃✬│ 🔴𝗧𝗮𝗸𝗲
+┃✫│ 🔴𝗧𝘄𝗲𝗲𝘁
+┃✫│ 🔴𝗤𝘂𝗼𝘁𝗲𝗹𝘆
 ╰══───────◇───────══╯
-●═══〘 🔅𝗖𝗢𝗡𝗙𝗜𝗚 𝗩𝗔𝗥𝗦🔅〙═───═●
+●═══〘 ⚡𝗖𝗢𝗡𝗙𝗜𝗚 𝗩𝗔𝗥𝗦⚡ 〙═───═●
 ╭══───────◇───────══╮
-┃♻️│ 𝗔𝗻𝘁𝗶𝗱𝗲𝗹𝗲𝘁𝗲
-┃♻️│ 𝗔𝗻𝘁𝗶𝗰𝗮𝗹𝗹
-┃♻️│ 𝗔𝗻𝘁𝗶𝗳𝗼𝗿𝗲𝗶𝗴𝗻
-┃♻️│ 𝗔𝗻𝘁𝗶𝘁𝗮𝗴
-┃♻️│ 𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸
-┃♻️│ 𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸_𝗮𝗹𝗹
-┃♻️│ 𝗚𝗽𝘁_𝗜𝗻𝗯𝗼𝘅
+┃✯│ 🔵𝗔𝗻𝘁𝗶𝗱𝗲𝗹𝗲𝘁𝗲
+┃✫│ 🔵𝗔𝗻𝘁𝗶𝗰𝗮𝗹𝗹
+┃✯│ 🔵𝗔𝗻𝘁𝗶𝗳𝗼𝗿𝗲𝗶𝗴𝗻
+┃✫│ 🔵𝗔𝗻𝘁𝗶𝘁𝗮𝗴
+┃✯│ 🔵𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸
+┃✯│ 🔵𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸_𝗮𝗹𝗹
+┃✯│ 🔵𝗚𝗽𝘁_𝗜𝗻𝗯𝗼𝘅
 ╰══───────◇───────══╯
-●═════  〘 🔅𝗚𝗣𝗧🔅 〙═────═●
+●═════  〘 ⚡𝗚𝗣𝗧⚡ 〙═────═●
 ╭══───────◇───────══╮
-┃♻️│ 𝗔𝗶
-┃♻️│ 𝗔𝗶2
-┃♻️│ 𝗩𝗶𝘀𝗶𝗼𝗻
-┃♻️│ 𝗗𝗲𝗳𝗶𝗻𝗲
-┃♻️│ 𝗗𝗮𝗿𝗸𝗴𝗽𝘁
-┃♻️│ Prime
-┃♻️│ 𝗚𝗲𝗺𝗶𝗻𝗶
-┃♻️│ 𝗚𝗼𝗼𝗴𝗹𝗲
-┃♻️│ 𝗚𝗽𝘁
-┃♻️│ 𝗚𝗽𝘁2
-┃♻️│ 𝗚𝗽𝘁3
+┃✬│ 🔴𝗔𝗶
+┃✯│ 🔴𝗔𝗶2
+┃✫│ 🔴𝗩𝗶𝘀𝗶𝗼𝗻
+┃✫│ 🔴𝗗𝗲𝗳𝗶𝗻𝗲
+┃✯│ 🔴𝗗𝗮𝗿𝗸𝗴𝗽𝘁
+┃✬│ 🔴𝗚𝗲𝗺𝗶𝗻𝗶
+┃✯│ 🔴𝗚𝗼𝗼𝗴𝗹𝗲
+┃✫│ 🔴𝗚𝗽𝘁
+┃✬│ 🔴𝗚𝗽𝘁2
+┃✫│ 🔴𝗚𝗽𝘁3
 ╰══───────◇───────══╯
-●════  〘 🔅𝗚𝗥𝗢𝗨𝗣🔅 〙═───═●
+●════  〘 ⚡𝗚𝗥𝗢𝗨𝗣⚡ 〙═───═●
 ╭══───────◇───────══╮
-┃💲│ 𝗔𝗽𝗽𝗿𝗼𝘃𝗲
-┃💲│ 𝗥𝗲𝗷𝗲𝗰𝘁
-┃💲│ 𝗣𝗿𝗼𝗺𝗼𝘁𝗲
-┃💲│ 𝗗𝗲𝗺𝗼𝘁𝗲
-┃💲│ 𝗗𝗲𝗹𝗲𝘁𝗲
-┃💲│ 𝗥𝗲𝗺𝗼𝘃𝗲
-┃💲│ 𝗙𝗮𝗸𝗲𝗿
-┃💲│ 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀
-┃💲│ 𝗖𝗹𝗼𝘀𝗲
-┃💲│ 𝗢𝗽𝗲𝗻
-┃💲│ 𝗖𝗹𝗼𝘀𝗲𝗧𝗶𝗺𝗲
-┃💲│ 𝗢𝗽𝗲𝗻𝗧𝗶𝗺𝗲
-┃💲│ 𝗗𝗶𝘀𝗽-𝗼𝗳𝗳
-┃💲│ 𝗗𝗶𝘀𝗽-1
-┃💲│ 𝗗𝗶𝘀𝗽-7
-┃💲│ 𝗗𝗶𝘀𝗽-90
-┃💲│ 𝗜𝗰𝗼𝗻
-┃💲│ 𝗚𝗰𝗽𝗿𝗼𝗳𝗶𝗹𝗲
-┃💲│ 𝗦𝘂𝗯𝗷𝗲𝗰𝘁
-┃💲│ 𝗗𝗲𝘀𝗰
-┃💲│ 𝗟𝗲𝗮𝘃𝗲
-┃💲│ 𝗔𝗱𝗱
-┃💲│ 𝗧𝗮𝗴𝗮𝗹𝗹
-┃💲│ 𝗛𝗶𝗱𝗲𝘁𝗮𝗴
-┃💲│ 𝗥𝗲𝘃𝗼𝗸𝗲
-┃💲│ 𝗠𝘂𝘁𝗲
-┃💲│ 𝗨𝗻𝗺𝘂𝘁𝗲
+┃✫│ 🔵𝗔𝗽𝗽𝗿𝗼𝘃𝗲
+┃✯│ 🔵𝗥𝗲𝗷𝗲𝗰𝘁
+┃✫│ 🔵𝗣𝗿𝗼𝗺𝗼𝘁𝗲
+┃✬│ 🔵𝗗𝗲𝗺𝗼𝘁𝗲
+┃✫│ 🔵𝗗𝗲𝗹𝗲𝘁𝗲
+┃✬│ 🔵𝗥𝗲𝗺𝗼𝘃𝗲
+┃✫│ 🔵𝗙𝗮𝗸𝗲𝗿
+┃✯│ 🔵𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀
+┃✬│ 🔵𝗖𝗹𝗼𝘀𝗲
+┃✫│ 🔵𝗢𝗽𝗲𝗻
+┃✬│ 🔵𝗖𝗹𝗼𝘀𝗲𝗧𝗶𝗺𝗲
+┃✫│ 🔵𝗢𝗽𝗲𝗻𝗧𝗶𝗺𝗲
+┃✬│ 🔵𝗗𝗶𝘀𝗽-𝗼𝗳𝗳
+┃✫│ 🔵𝗗𝗶𝘀𝗽-1
+┃✬│ 🔵𝗗𝗶𝘀𝗽-7
+┃✫│ 🔵𝗗𝗶𝘀𝗽-90
+┃✬│ 🔵𝗜𝗰𝗼𝗻
+┃✯│ 🔵𝗚𝗰𝗽𝗿𝗼𝗳𝗶𝗹𝗲
+┃✫│ 🔵𝗦𝘂𝗯𝗷𝗲𝗰𝘁
+┃✬│ 🔵𝗗𝗲𝘀𝗰
+┃✫│ 🔵𝗟𝗲𝗮𝘃𝗲
+┃✯│ 🔵𝗔𝗱𝗱
+┃✫│ 🔵𝗧𝗮𝗴𝗮𝗹𝗹
+┃✬│ 🔵𝗛𝗶𝗱𝗲𝘁𝗮𝗴
+┃✫│ 🔵𝗥𝗲𝘃𝗼𝗸𝗲
+┃✬│ 🔵𝗠𝘂𝘁𝗲
+┃✫│ 🔵𝗨𝗻𝗺𝘂𝘁𝗲
 ╰══───────◇───────══╯
-●═══  〘 🔅𝗖𝗢𝗗𝗜𝗡𝗚🔅 〙 ═───═●
+●═══  〘 ⚡𝗖𝗢𝗗𝗜𝗡𝗚⚡ 〙 ═───═●
 ╭══───────◇───────══╮
-┃💲│ 𝗖𝗮𝗿𝗯𝗼𝗻
-┃💲│ 𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗰
-┃💲│ 𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗰++
-┃💲│ 𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗷𝘀
-┃💲│ 𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗽𝘆
-┃💲│ 𝗜𝗻𝘀𝗽𝗲𝗰𝘁
-┃💲│ 𝗘𝗻𝗰𝗿𝘆𝗽𝘁𝗲
-┃💲│ 𝗘𝘃𝗮𝗹
+┃✫│ 🔴𝗖𝗮𝗿𝗯𝗼𝗻
+┃✯│ 🔴𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗰
+┃✫│ 🔴𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗰++
+┃✯│ 🔴𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗷𝘀
+┃✫│ 🔴𝗖𝗼𝗺𝗽𝗶𝗹𝗲-𝗽𝘆
+┃✫│ 🔴𝗜𝗻𝘀𝗽𝗲𝗰𝘁
+┃✯│ 🔴𝗘𝗻𝗰𝗿𝘆𝗽𝘁𝗲
+┃✫│ 🔴𝗘𝘃𝗮𝗹
 ╰══───────◇───────══╯
-●═══  〘 🔅𝗚𝗘𝗡𝗘𝗥𝗔𝗟🔅〙 ═───═●
+●═══  〘 ⚡𝗚𝗘𝗡𝗘𝗥𝗔𝗟⚡ 〙 ═───═●
 ╭══───────◇───────══╮
-┃💲│ 𝗢𝘄𝗻𝗲𝗿
-┃💲│ 𝗦𝗰𝗿𝗶𝗽𝘁
-┃💲│ 𝗠𝗲𝗻𝘂
-┃💲│ 𝗟𝗶𝘀𝘁
-┃💲│ 𝗣𝗶𝗻𝗴
-┃💲│ 𝗣𝗼𝗹𝗹
-┃💲│ 𝗔𝗹𝗶𝘃𝗲
-┃💲│ 𝗦𝗽𝗲𝗲𝗱
-┃💲│ 𝗥𝗲𝗽𝗼
-┃💲│ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲
-┃💲│ 𝗨𝗽𝘁𝗶𝗺𝗲
-┃💲│ 𝗗𝗽
-┃💲│ 𝗗𝗹𝘁
-┃💲│ 𝗠𝗮𝗶𝗹
-┃💲│ 𝗜𝗻𝗯𝗼𝘅
-┃💲│ 𝗡𝗲𝘄𝘀
-┃💲│ 𝗔𝗻𝗶𝗺𝗲
+┃✬│ 🔵𝗢𝘄𝗻𝗲𝗿
+┃✬│ 🔵𝗦𝗰𝗿𝗶𝗽𝘁
+┃✫│ 🔵𝗠𝗲𝗻𝘂
+┃✬│ 🔵𝗟𝗶𝘀𝘁
+┃✫│ 🔵𝗣𝗶𝗻𝗴
+┃✯│ 🔵𝗣𝗼𝗹𝗹
+┃✬│ 🔵𝗔𝗹𝗶𝘃𝗲
+┃✫│ 🔵𝗦𝗽𝗲𝗲𝗱
+┃✬│ 🔵𝗥𝗲𝗽𝗼
+┃✫│ 🔵𝗥𝘂𝗻𝘁𝗶𝗺𝗲
+┃✯│ 🔵𝗨𝗽𝘁𝗶𝗺𝗲
+┃✫│ 🔵𝗗𝗽
+┃✯│ 🔵𝗗𝗹𝘁
+┃✬│ 🔵𝗠𝗮𝗶𝗹
+┃✫│ 🔵𝗜𝗻𝗯𝗼𝘅
+┃✯│ 🔵𝗡𝗲𝘄𝘀
+┃✫│ 🔵𝗔𝗻𝗶𝗺𝗲
 ╰══───────◇───────══╯
-●═══   〘 🔅𝗢𝗪𝗡𝗘𝗥🔅 〙═───═●
+●═══   〘 ⚡𝗢𝗪𝗡𝗘𝗥⚡  〙═───═●
 ╭══───────◇───────══╮
-┃💲│ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁
-┃💲│ 𝗔𝗱𝗺𝗶𝗻
-┃💲│ 𝗖𝗮𝘀𝘁
-┃💲│ 𝗕𝗿𝗼𝗮𝗱𝗰𝗮𝘀𝘁
-┃💲│ 𝗝𝗼𝗶𝗻
-┃💲│ 𝗚𝗲𝘁𝘃𝗮𝗿
-┃💲│ 𝗥𝗲𝗱𝗲𝗽𝗹𝗼𝘆
-┃💲│ 𝗨𝗽𝗱𝗮𝘁𝗲
-┃💲│ 𝗦𝗲𝘁𝘃𝗮𝗿
-┃💲│ 𝗕𝗼𝘁𝗽𝗽
-┃💲│ 𝗙𝘂𝗹𝗹𝗽𝗽
-┃💲│ 𝗕𝗹𝗼𝗰𝗸
-┃💲│ 𝗨𝗻𝗯𝗼𝗰𝗸
-┃💲│ 𝗞𝗶𝗹𝗹
-┃💲│ 𝗞𝗶𝗹𝗹2
-┃💲│ 𝗦𝗮𝘃𝗲
-┃💲│ >>>>
+┃✬│ 🔴𝗥𝗲𝘀𝘁𝗮𝗿𝘁
+┃✫│ 🔴𝗔𝗱𝗺𝗶𝗻
+┃✯│ 🔴𝗖𝗮𝘀𝘁
+┃✬│ 🔴𝗕𝗿𝗼𝗮𝗱𝗰𝗮𝘀𝘁
+┃✫│ 🔴𝗝𝗼𝗶𝗻
+┃✯│ 🔴𝗚𝗲𝘁𝘃𝗮𝗿
+┃✯│ 🔴𝗥𝗲𝗱𝗲𝗽𝗹𝗼𝘆
+┃✯│ 🔴𝗨𝗽𝗱𝗮𝘁𝗲
+┃✫│ 🔴𝗦𝗲𝘁𝘃𝗮𝗿
+┃✬│ 🔴𝗕𝗼𝘁𝗽𝗽
+┃✫│ 🔴𝗙𝘂𝗹𝗹𝗽𝗽
+┃✬│ 🔴𝗕𝗹𝗼𝗰𝗸
+┃✫│ 🔴𝗨𝗻𝗯𝗼𝗰𝗸
+┃✬│ 🔴𝗞𝗶𝗹𝗹
+┃✫│ 🔴𝗞𝗶𝗹𝗹2
+┃✫│ 🔴𝗦𝗮𝘃𝗲
+┃✫│ 🔴blackmachant 
+┃✬│ 🔴🪽
 ╰══───────◇───────══╯
-●═══   〘 🔅𝗣𝗥𝗔𝗡𝗞🔅 〙 ═──═●
+●═══   〘 𝗣𝗥𝗔𝗡𝗞✔️  〙 ═──═●
 ╭══───────◇───────══╮
-┃💲│ 𝗛𝗮𝗰𝗸
+┃✯│ 🕸️𝗛𝗮𝗰𝗸
 ╰══───────◇───────══╯
-●═══   〘 🔅𝗟𝗢𝗚𝗢𝗦🔅 〙 ═──═●
+●═══   〘 ⚡𝗟𝗢𝗚𝗢𝗦⚡  〙 ═──═●
 ╭══───────◇───────══╮
-┃💲│ 𝗛𝗮𝗰𝗸𝗲𝗿
-┃💲│ 𝗛𝗮𝗰𝗸𝗲𝗿2
-┃💲│ 𝗚𝗿𝗮𝗳𝗳𝗶𝘁𝗶
-┃💲│ 𝗖𝗮𝘁
-┃💲│ 𝗦𝗮𝗻𝗱
-┃💲│ 𝗚𝗼𝗹𝗱
-┃💲│ 𝗔𝗿𝗲𝗻𝗮
-┃💲│ 𝗗𝗿𝗮𝗴𝗼𝗻𝗯𝗮𝗹𝗹
-┃💲│ 𝗡𝗮𝗿𝘂𝘁𝗼
-┃💲│ 𝗖𝗵𝗶𝗹𝗱
-┃💲│ 𝗟𝗲𝗮𝘃𝗲𝘀
-┃💲│ 1917
-┃💲│ 𝗧𝘆𝗽𝗼𝗴𝗿𝗮𝗽𝗵𝘆
+┃✯│ 🔵𝗛𝗮𝗰𝗸𝗲𝗿
+┃✫│ 🔵𝗛𝗮𝗰𝗸𝗲𝗿2
+┃✯│ 🔵𝗚𝗿𝗮𝗳𝗳𝗶𝘁𝗶
+┃✫│ 🔵𝗖𝗮𝘁
+┃✯│ 🔵𝗦𝗮𝗻𝗱
+┃✫│ 🔵𝗚𝗼𝗹𝗱
+┃✯│ 🔵𝗔𝗿𝗲𝗻𝗮
+┃✫│ 🔵𝗗𝗿𝗮𝗴𝗼𝗻𝗯𝗮𝗹𝗹
+┃✯│ 🔵𝗡𝗮𝗿𝘂𝘁𝗼
+┃✫│ 🔵𝗖𝗵𝗶𝗹𝗱
+┃✯│ 🔵𝗟𝗲𝗮𝘃𝗲𝘀
+┃✫│ 🔵1917
+┃✯│ 🔵𝗧𝘆𝗽𝗼𝗴𝗿𝗮𝗽𝗵𝘆
 ╰══───────◇───────══╯
-●═══ 〘  🔅𝗧𝗘𝗫𝗧𝗠𝗔𝗞𝗘𝗥🔅〙═──═●
+●═══ 〘  ⚡𝗧𝗘𝗫𝗧𝗠𝗔𝗞𝗘𝗥⚡  〙═──═●
 ╭══───────◇───────══╮
-┃💲│ 𝗣𝘂𝗿𝗽𝗹𝗲
-┃💲│ 𝗡𝗲𝗼𝗻
-┃💲│ 𝗡𝗼𝗲𝗹
-┃💲│ 𝗠𝗲𝘁𝗮𝗹𝗹𝗶𝗰
-┃💲│ 𝗗𝗲𝘃𝗶𝗹
-┃💲│ 𝗜𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝘃𝗲
-┃💲│ 𝗦𝗻𝗼𝘄
-┃💲│ 𝗪𝗮𝘁𝗲𝗿
-┃💲│ 𝗧𝗵𝘂𝗻𝗱𝗲𝗿
-┃💲│ 𝗜𝗰𝗲
-┃💲│ 𝗠𝗮𝘁𝗿𝗶𝘅
-┃💲│ 𝗦𝗶𝗹𝘃𝗲𝗿
-┃💲│ 𝗟𝗶𝗴𝗵𝘁
+┃✯│ 🔴𝗣𝘂𝗿𝗽𝗹𝗲
+┃✫│ 🔴𝗡𝗲𝗼𝗻
+┃✯│ 🔴𝗡𝗼𝗲𝗹
+┃✫│ 🔴𝗠𝗲𝘁𝗮𝗹𝗹𝗶𝗰
+┃✯│ 🔴𝗗𝗲𝘃𝗶𝗹
+┃✫│ 🔴𝗜𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝘃𝗲
+┃✯│ 🔴𝗦𝗻𝗼𝘄
+┃✫│ 🔴𝗪𝗮𝘁𝗲𝗿
+┃✯│ 🔴𝗧𝗵𝘂𝗻𝗱𝗲𝗿
+┃✫│ 🔴𝗜𝗰𝗲
+┃✯│ 🔴𝗠𝗮𝘁𝗿𝗶𝘅
+┃✫│ 🔴𝗦𝗶𝗹𝘃𝗲𝗿
+┃✯│ 🔴𝗟𝗶𝗴𝗵𝘁
 ╰══───────◇───────══╯
-●═══   〘 🔅𝗠𝗜𝗦𝗖🔅 〙 ═──═●
+●═══   〘 ⚡𝗠𝗜𝗦𝗖⚡ 〙 ═──═●
 ╭══───────◇───────══╮
-┃💲│ 𝗪𝗲𝗮𝘁𝗵𝗲𝗿
-┃💲│ 𝗚𝗶𝘁𝗵𝘂𝗯
-┃💲│ 𝗚𝗶𝘁𝗰𝗹𝗼𝗻𝗲
-┃💲│ 𝗔𝗱𝘃𝗶𝗰𝗲
-┃💲│ 𝗥𝗲𝗺𝗼𝘃𝗲𝗯𝗴
-┃💲│ 𝗥𝗲𝗺𝗶𝗻𝗶
-┃💲│ 𝗧𝘁𝘀
-┃💲│ 𝗧𝗿𝘁
-┃💲│ 𝗙𝗮𝗰𝘁
-┃💲│ 𝗖𝗮𝘁𝗳𝗮𝗰𝘁
-┃💲│ 𝗤𝘂𝗼𝘁𝗲𝘀
-┃💲│ 𝗣𝗶𝗰𝗸𝘂𝗽𝗹𝗶𝗻𝗲
+┃✫│ 🔵𝗪𝗲𝗮𝘁𝗵𝗲𝗿
+┃✯│ 🔵𝗚𝗶𝘁𝗵𝘂𝗯
+┃✫│ 🔵𝗚𝗶𝘁𝗰𝗹𝗼𝗻𝗲
+┃✯│ 🔵𝗔𝗱𝘃𝗶𝗰𝗲
+┃✫│ 🔵𝗥𝗲𝗺𝗼𝘃𝗲𝗯𝗴
+┃✯│ 🔵𝗥𝗲𝗺𝗶𝗻𝗶
+┃✯│ 🔵𝗧𝘁𝘀
+┃✯│ 🔵𝗧𝗿𝘁
+┃✫│ 🔵𝗙𝗮𝗰𝘁
+┃✯│ 🔵𝗖𝗮𝘁𝗳𝗮𝗰𝘁
+┃✫│ 🔵𝗤𝘂𝗼𝘁𝗲𝘀
+┃✯│ 🔵𝗣𝗶𝗰𝗸𝘂𝗽𝗹𝗶𝗻𝗲
 ╰══───────◇───────══╯
-●═══  〘 🔅𝗢𝗧𝗛𝗘𝗥𝗦🔅〙 ═──═●
+●═══  〘 ⚡𝗢𝗧𝗛𝗘𝗥𝗦⚡  〙 ═──═●
 ╭══───────◇───────══╮
-┃💲│ 𝗖𝗿𝗲𝗱𝗶𝘁𝘀
-┃💲│ 𝗨𝗽𝗹𝗼𝗮𝗱
-┃💲│ 𝗔𝘁𝘁𝗽
-┃💲│ 𝗨𝗿𝗹
-┃💲│ 𝗜𝗺𝗮𝗴𝗲
-┃💲 𝗦𝘆𝘀𝘁𝗲𝗺
-┃💲╰═───────◇───────═╯
-┃   🇰🇪𝑷𝑹𝑰𝑴𝑬 𝑴𝑫 𝑺𝑼𝑷𝑬𝑹 𝑩𝑶𝑻🇰🇪
-┃   𝗠𝗮𝗱𝗲 In Kenya 𝗕𝘆 Prime Tech!
-┃   CREDITS TO 𝑷𝑹𝑰𝑴𝑬 𝑻𝑬𝑪𝑯🇰🇪 !
+┃✫│ 🔴𝗖𝗿𝗲𝗱𝗶𝘁𝘀
+┃✬│ 🔴𝗨𝗽𝗹𝗼𝗮𝗱
+┃✫│ 🔴𝗔𝘁𝘁𝗽
+┃✬│ 🔴𝗨𝗿𝗹
+┃✫│ 🔴𝗜𝗺𝗮𝗴𝗲
+┃✬│ 🔴𝗦𝘆𝘀𝘁𝗲𝗺
+┃✫╰═───────◇───────═╯
+┃ 🕸️𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓🕸️
+┃ 𝗠𝗮𝗱𝗲 𝗢𝗻 𝗘𝗮𝗿𝘁𝗵 𝗕𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!
 ╰══────────────────══╯`;
 
 if (menu === 'VIDEO') {
@@ -600,10 +600,10 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓`,
+                                title: `𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./Media/PRIMETECHMD.jpeg'),
-                                sourceUrl: 'https://wa.me/254741071005?text=Hello👋+PRIME+Nihostie+Bot+Mkuu+😔',
+                                thumbnail: fs.readFileSync('./Media/blackmachant.jpg'),
+                                sourceUrl: 'https://wa.me/254114283550?text=Hello👋+black+Nihostie+Bot+Mkuu+😔',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -667,7 +667,7 @@ break;
                 {
                     document: { url: audioUrl },
                     mimetype: "audio/mpeg",
-		    caption: "𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓",
+		    caption: "𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓",
                     fileName: `${title}.mp3`,
                 },
                 { quoted: m }
@@ -719,7 +719,7 @@ await client.sendMessage(
         {
           document: { url: audioData.downloadUrl },
           mimetype: "audio/mp3",
-	  caption: "𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓",
+	  caption: "𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓",
           fileName: `${audioData.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
         },
         { quoted: m }
@@ -781,7 +781,7 @@ const fetch = require("node-fetch");
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓",
         },
         { quoted: m }
       );
@@ -814,7 +814,7 @@ const fetch = require("node-fetch");
                     `https://api.heroku.com/apps/${appname}/builds`,
                     {
                         source_blob: {
-                            url: "https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT/tarball/main",
+                            url: "https://github.com/Blackie254/black-super-bot/tarball/main",
                         },
                     },
                     {
@@ -825,7 +825,7 @@ const fetch = require("node-fetch");
                     }
                 );
 
-                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *prime-BOT* unleashed upon you.");
+                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *black-BOT* unleashed upon you.");
                 console.log("Build details:", response.data);
             } catch (error) {
                 const errorMessage = error.response?.data || error.message;
@@ -841,7 +841,7 @@ const fetch = require("node-fetch");
 //========================================================================================================================//		      
 		      case "credits": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/6PmJdDR.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/HunterNick2\n\n - PRIME TECH➪ Kenya\n - Compiling and debugging parts of this bot script\nhttps://github.com/PRIMETECH-ke\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\nPRIME`}, { quoted: m}); 
+              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/XR1Neb9.jpeg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/HunterNick2\n\n - Black Merchant➪ Kenya\n - Compiling and debugging parts of this bot script\nhttps://github.com/Blackie254\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\nBLACKY`}, { quoted: m}); 
                
 		      break;
 
@@ -917,7 +917,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓",
+		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -1033,7 +1033,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a9n6e5.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d0734) {
     m.reply(_0x180d0734);
@@ -1055,7 +1055,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x295.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d) {
     m.reply(_0x180d);
@@ -1077,7 +1077,7 @@ const cheerio = require('cheerio');
       image: {
         url: _029a96e5.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0180d034) {
     m.reply(_0180d034);
@@ -1089,7 +1089,7 @@ const cheerio = require('cheerio');
 	      case 'impressive': {
 		      var mumaker = require("mumaker");
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "impressive PRIME");
+      m.reply("Example Usage : " + prefix + "impressive BLACKY");
       return;
     }
      try {
@@ -1099,7 +1099,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a96em5.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x18d034) {
     m.reply(_0x18d034);
@@ -1123,7 +1123,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunte.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1149,7 +1149,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunterr.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKS-BOT`
     }, {
       quoted: m
     });
@@ -1175,7 +1175,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteer.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKS-BOT`
     }, {
       quoted: m
     });
@@ -1200,7 +1200,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteqr.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKS-BOT`
     }, {
       quoted: m
     });
@@ -1214,7 +1214,7 @@ m.reply("*Wait a moment...*");
 	      case 'neon':{
 		var mumaker = require("mumaker");
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Neon prime");
+      m.reply("Example Usage : " + prefix + "Neon Blacky");
       return;
     }
      try {
@@ -1224,7 +1224,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96e5.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d034) {
     m.reply(_0x180d034);
@@ -1236,7 +1236,7 @@ m.reply("*Wait a moment...*");
 	      case 'silver': case 'silva': {
 		      var mumaker = require("mumaker");
 		          if (!text || text == " ") {
-      m.reply("Example Usage : " + prefix + "Silva Prime");
+      m.reply("Example Usage : " + prefix + "Silva Nick");
       return;
     }
      try {
@@ -1246,7 +1246,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x2996e.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d3) {
     m.reply(_0x180d3);
@@ -1258,7 +1258,7 @@ m.reply("*Wait a moment...*");
 	      case 'devil':{
 		      var mumaker = require("mumaker");
 		          if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Devil Prime");
+      m.reply("Example Usage : " + prefix + "Devil Blacky");
       return;
     }
      try {
@@ -1268,7 +1268,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x9a96e.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x80d03) {
     m.reply(_0x80d03);
@@ -1280,7 +1280,7 @@ m.reply("*Wait a moment...*");
 	      case 'typography': {
 		      var mumaker = require("mumaker");
 		          if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Typography Prime");
+      m.reply("Example Usage : " + prefix + "Typography Merchant");
       return;
     }
      try {
@@ -1290,7 +1290,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a996e.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d063) {
     m.reply(_0x180d063);
@@ -1302,7 +1302,7 @@ m.reply("*Wait a moment...*");
 	      case 'purple': {
 		 var mumaker = require("mumaker");
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "purple Prime");
+      m.reply("Example Usage : " + prefix + "purple Blacky");
       return;
     }
      try {
@@ -1312,7 +1312,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96e.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d03) {
     m.reply(_0x180d03);
@@ -1324,7 +1324,7 @@ m.reply("*Wait a moment...*");
 	      case 'thunder':{
 		      var mumaker = require("mumaker"); 
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Thunder Prime");
+      m.reply("Example Usage : " + prefix + "Thunder STEVOH");
       return;
     }
 	try {
@@ -1334,7 +1334,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     });
   } catch (_0x180d0) {
     m.reply(_0x180d0);
@@ -1346,7 +1346,7 @@ m.reply("*Wait a moment...*");
 	case 'leaves': {
 		     var mumaker = require("mumaker"); 
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Leaves PRIME-BOT");
+      m.reply("Example Usage : " + prefix + "Leaves BLACKMARCHANT-BOT");
       return;
     }
 	try {
@@ -1356,7 +1356,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192dl.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1370,7 +1370,7 @@ m.reply("*Wait a moment...*");
 	      case '1917': {
 		     var mumaker = require("mumaker"); 
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "1917 PRIME-BOT");
+      m.reply("Example Usage : " + prefix + "1917 Black-merchant");
       return;
     }
 	try {
@@ -1380,7 +1380,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1394,7 +1394,7 @@ m.reply("*Wait a moment...*");
 	      case 'arena': {
 		     var mumaker = require("mumaker"); 
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "arena PRIME-BOT");
+      m.reply("Example Usage : " + prefix + "arena BLACK-BOT");
       return;
     }
 	try {
@@ -1404,7 +1404,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192d.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1418,7 +1418,7 @@ m.reply("*Wait a moment...*");
 	      case 'hacker': {
 		      var mumaker = require("mumaker");
 		      if (!text || text == "") {
-    m.reply("Example usage :  " + prefix + "hacker Prime");
+    m.reply("Example usage :  " + prefix + "hacker Blacky");
     return;
   }
   try {
@@ -1428,7 +1428,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x4086bb.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1442,7 +1442,7 @@ m.reply("*Wait a moment...*");
 	      case 'sand': {
 	 var mumaker = require("mumaker");
 		      if (!text || text == "") {
-    m.reply("Example Usage : " + prefix + "sand PRIME");
+    m.reply("Example Usage : " + prefix + "sand BLACK");
     return;
   }
   try {
@@ -1452,7 +1452,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x4959e5.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1466,7 +1466,7 @@ m.reply("*Wait a moment...*");
 	      case 'dragonball': {
 	var mumaker = require("mumaker");	      
     if (!text || text == "") {
-      m.reply("Example usage :  " + prefix + "dragonball PRIME");
+      m.reply("Example usage :  " + prefix + "dragonball Black-merchant");
       return;
     }
       try {
@@ -1476,7 +1476,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x26f3ed.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1490,7 +1490,7 @@ m.reply("*Wait a moment...*");
 	      case 'naruto': {
 		var mumaker = require("mumaker");      
 		      if (!text || text == "") {
-      m.reply("Example usage : " + prefix + "naruto PRIME");
+      m.reply("Example usage : " + prefix + "naruto Blacky");
       return;
     }
     try {
@@ -1500,7 +1500,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x357389.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1514,7 +1514,7 @@ m.reply("*Wait a moment...*");
 	      case 'graffiti': {
 		    var mumaker = require("mumaker");  
 		      if (!text || text == "") {
-    m.reply("Example usage : " + prefix + "graffiti PRIME");
+    m.reply("Example usage : " + prefix + "graffiti Black-merchant");
     return;
   }
   try {
@@ -1524,7 +1524,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x57ef84.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1537,7 +1537,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'cat': {
 		   var mumaker = require("mumaker");
-		  if (!text || text == "") { m.reply("Example usage : * " + prefix + "cat PRIME");
+		  if (!text || text == "") { m.reply("Example usage : * " + prefix + "cat Blacky");
     return;
   }
   try {
@@ -1547,7 +1547,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: nick.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1573,7 +1573,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunter.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1588,7 +1588,7 @@ m.reply("*Wait a moment...*");
 	    var mumaker = require("mumaker");
 		     
 		      if (!text || text == "") {
-    m.reply("Example usage: " + prefix + "Child Prime");
+    m.reply("Example usage: " + prefix + "Child Blacky");
     return;
   } 
   try {
@@ -1599,7 +1599,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: tumba.image
       },
-      caption: `GENERATED BY PRIME-BOT`
+      caption: `GENERATED BY BLACKMARCHANT-BOT`
     }, {
       quoted: m
     });
@@ -1610,9 +1610,9 @@ m.reply("*Wait a moment...*");
 		break;
 		      
 //========================================================================================================================//
-	      case "PRIMETECHMD":
+	      case "blackmachant":
 		{
-        if (!text) return reply(`Hello I'm PRIME-AI. How can i help u?`);
+        if (!text) return reply(`Hello I'm BLACKMARCHANT AI. How can i help u?`);
           let d = await fetchJson(
             `https://bk9.fun/ai/llama?q=${text}`
           );
@@ -1764,7 +1764,7 @@ m.reply("*Wait a moment...*");
     } else if (args[0] == "-x") {
       setTimeout(() => {
         client.sendMessage(m.chat, {
-          text: `𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓 𝘄𝗶𝗹𝗹 𝗻𝗼𝘄 𝗿𝗲𝗺𝗼𝘃𝗲 𝗮𝗹𝗹 ${_0x2f8982.length} 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗰𝗵𝗮𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘀𝗲𝗰𝗼𝗻𝗱.\n\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀. 𝗧𝗵𝗶𝘀 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗲 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲𝗱⚠️`
+          text: `𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓 𝘄𝗶𝗹𝗹 𝗻𝗼𝘄 𝗿𝗲𝗺𝗼𝘃𝗲 𝗮𝗹𝗹 ${_0x2f8982.length} 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗰𝗵𝗮𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘀𝗲𝗰𝗼𝗻𝗱.\n\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀. 𝗧𝗵𝗶𝘀 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗲 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲𝗱⚠️`
         }, {
           quoted: m
         });
@@ -1810,7 +1810,7 @@ m.reply("*Wait a moment...*");
       return m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵!");
     }
     if (!text) {
-      return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗣𝗥𝗜𝗠𝗘 𝗔𝗶, 𝘂𝘀𝗶𝗻𝗴 𝗴𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+      return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝗶𝘀 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝗔𝗶, 𝘂𝘀𝗶𝗻𝗴 𝗴𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
     }
     if (!/image/.test(mime)) {
       return m.reply("𝗛𝘂𝗵 𝘁𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲! 𝗣𝗹𝗲𝗮𝘀𝗲 𝗧𝗮𝗴 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵 !");
@@ -1857,7 +1857,7 @@ try {
 
 if (!m.quoted) return m.reply("Send the image then tag it with the instruction.");
 
-if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 PRIME AI 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 Blackmachant AI 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
 
 
 
@@ -1867,7 +1867,7 @@ let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 
 
                     let fta = await uploadtoimgur(fdr)
-                    m.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝗣𝗥𝗜𝗠𝗘 [𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓-𝗔𝗜] 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
+                    m.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 [𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓-𝗔𝗜] 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
 
 
 const data = await fetchJson(`https://api.dreaded.site/api/gemini-vision?url=${fta}&instruction=${text}`);
@@ -1889,7 +1889,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 //========================================================================================================================//		      
 	      case "vision": {
 		      if (!msgR || !text) {
-    m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝗮𝗻𝗱 𝗴𝗶𝘃𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵. 𝗜'𝗺 𝗣𝗥𝗜𝗠𝗘 𝗔𝗶, 𝗶 𝘂𝘀𝗲 𝗕𝗮𝗿𝗱 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘇𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+    m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝗮𝗻𝗱 𝗴𝗶𝘃𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵. 𝗜'𝗺 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝗔𝗶, 𝗶 𝘂𝘀𝗲 𝗕𝗮𝗿𝗱 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘇𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
     return;
   }
   ;
@@ -1926,7 +1926,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 			const { remini } = require('./lib/remini')
 			let media = await quoted.download()
 			let proses = await remini(media, "enhance")
-			client.sendMessage(m.chat, { image: proses, caption: '𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗣𝗥𝗜𝗠𝗘-𝗕𝗼𝘁'}, { quoted: m })
+			client.sendMessage(m.chat, { image: proses, caption: '𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓-𝗕𝗼𝘁'}, { quoted: m })
 			}
 			break;
 
@@ -1960,7 +1960,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
       await client.groupSettingUpdate(groupId, "announcement");
       await client.removeProfilePicture(groupId);
       await client.groupUpdateSubject(groupId, "𝗧𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗻𝗼 𝗹𝗼𝗻𝗴𝗲𝗿 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 🚫");
-      await client.groupUpdateDescription(groupId, "//𝗕𝘆 𝘁𝗵𝗲 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 𝗣𝗥𝗜𝗠𝗘 𝗗𝗲𝘃 !");
+      await client.groupUpdateDescription(groupId, "//𝗕𝘆 𝘁𝗵𝗲 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝗗𝗲𝘃 !");
       await client.groupRevokeInvite(groupId);
 
       
@@ -2062,7 +2062,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 
 const displayname = pushname;
 const username = m.sender.split('@')[0];
-const avatar = await client.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/SenpZLH.png');
+const avatar = await client.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/vuxJCTB.jpeg');
 const replies = "246";
 const retweets = "125";
 const theme = "dark";
@@ -2071,7 +2071,7 @@ const imageurl = `https://some-random-api.com/canvas/misc/tweet?displayname=${en
 
 
 
-await client.sendMessage(m.chat, { image: { url: imageurl}, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗣𝗥𝗜𝗠𝗘-𝗕𝗢𝗧`}, { quoted: m}) 
+await client.sendMessage(m.chat, { image: { url: imageurl}, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓-𝗕𝗢𝗧`}, { quoted: m}) 
 
 	}
 	 break;
@@ -2329,14 +2329,14 @@ m.reply("An error occured.")
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "𝗣𝗥𝗜𝗠𝗘",
+        fileName: "𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓",
 
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "𝗛𝗶 𝗛𝘂𝗺𝗮𝗻👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗻𝗼𝘄",
-          body: "𝗣𝗥𝗜𝗠𝗘",
-          thumbnailUrl: "https://files.catbox.moe/o2ku1n.jpeg",
+          body: "𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓",
+          thumbnailUrl: "https://files.catbox.moe/s5nuh3.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -2350,7 +2350,7 @@ m.reply("An error occured.")
 	case "removebg": {
 		      try {
 
-const cap = "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓";
+const cap = "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓";
 
 if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 
@@ -2359,7 +2359,7 @@ if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 
                     let fta = await uploadtoimgur(fdr)
-                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, PRIME 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
+                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, BLACKMARCHANT 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
 
 const image = `https://api.dreaded.site/api/removebg?imageurl=${fta}`
 
@@ -2690,7 +2690,7 @@ if (!text) throw 'Provide a valid Bot Baileys Function to evaluate'
 
 //========================================================================================================================//		      
 	case 'add':
-		      if (!text) return reply('provide a number to be added in this format. \n\n add 254741071005'); 
+		      if (!text) return reply('provide a number to be added in this format. \n\n add 254114283550'); 
                 if (!m.isGroup) throw group;
                 if(!isAdmin) throw admin;
                 if (!isBotAdmin) throw botAdmin;
@@ -2702,13 +2702,13 @@ if (!text) throw 'Provide a valid Bot Baileys Function to evaluate'
 //========================================================================================================================//		      
 case "kill": case "kickall":
 	  if (!m.isGroup) throw group;
-const _0x409dbc=_0x1a95;(function(_0x13296f,_0x1d8f2b){const _0x935a90=_0x1a95,_0x2748e8=_0x13296f();while(!![]){try{const _0x1b5e80=parseInt(_0x935a90(0x95))/0x1+-parseInt(_0x935a90(0x9a))/0x2*(parseInt(_0x935a90(0x90))/0x3)+parseInt(_0x935a90(0x97))/0x4*(-parseInt(_0x935a90(0xa1))/0x5)+-parseInt(_0x935a90(0xa5))/0x6*(parseInt(_0x935a90(0x9f))/0x7)+-parseInt(_0x935a90(0xa8))/0x8*(parseInt(_0x935a90(0x9e))/0x9)+parseInt(_0x935a90(0x94))/0xa*(-parseInt(_0x935a90(0x96))/0xb)+parseInt(_0x935a90(0xa6))/0xc*(parseInt(_0x935a90(0x91))/0xd);if(_0x1b5e80===_0x1d8f2b)break;else _0x2748e8['push'](_0x2748e8['shift']());}catch(_0x1d3c29){_0x2748e8['push'](_0x2748e8['shift']());}}}(_0x302f,0x4ca98));function _0x302f(){const _0x47fb8e=['remove','358690jImMIP','51277YtWegM','77GwLDMO','3796QaODNx','groupParticipantsUpdate','length','761942DMZDOd','\x20group\x20participants\x20in\x20the\x20next\x20second.\x0a\x0aGoodbye\x20Everyone!\x20👋\x0a\x0aTHIS\x20PROCESS\x20CANNOT\x20BE\x20TERMINATED💀!','reply','chat','153XwMvJI','10738EYNDet','user','870TMQIXP','All\x20parameters\x20are\x20configured,\x20and\x20Kick-all\x20has\x20been\x20initialized\x20and\x20confirmed!.\x20Now,\x20PRIME-BOT\x20will\x20remove\x20all\x20','filter','sendMessage','822dyXmDW','16642716DACfKI','Done✅.\x20All\x20group\x20participants\x20have\x20been\x20removed.\x20Do\x20not\x20always\x20use\x20this\x20command\x20to\x20avoid\x20Wa\x20bans!','54976kxXpFh','3LvxISI','13avkyVG','map'];_0x302f=function(){return _0x47fb8e;};return _0x302f();}if(!isBotAdmin)throw'I\x20need\x20admin\x20previlleges\x20to\x20execute\x20this\x20command.';if(!Owner)throw'Only Prime-MD owner can use this command😲!';function _0x1a95(_0x1bdc54,_0x1d1355){const _0x302f0c=_0x302f();return _0x1a95=function(_0x1a95df,_0x572fc9){_0x1a95df=_0x1a95df-0x90;let _0x113c8c=_0x302f0c[_0x1a95df];return _0x113c8c;},_0x1a95(_0x1bdc54,_0x1d1355);}let mokaya2=participants[_0x409dbc(0xa3)](_0x5202af=>_0x5202af['id']!=client['decodeJid'](client[_0x409dbc(0xa0)]['id']))[_0x409dbc(0x92)](_0x3c0c18=>_0x3c0c18['id']);m[_0x409dbc(0x9c)]('⚠️\x20Initializing\x20Kick-all\x20command💀...'),setTimeout(()=>{const _0x661bcb=_0x409dbc;client[_0x661bcb(0xa4)](m[_0x661bcb(0x9d)],{'text':_0x661bcb(0xa2)+mokaya2[_0x661bcb(0x99)]+_0x661bcb(0x9b)},{'quoted':m}),setTimeout(()=>{const _0x5c1d7c=_0x661bcb;client[_0x5c1d7c(0x98)](m[_0x5c1d7c(0x9d)],mokaya2,_0x5c1d7c(0x93)),setTimeout(()=>{const _0x46c32c=_0x5c1d7c;m['reply'](_0x46c32c(0xa7));},0x3e8);},0x3e8);},0x3e8);
+const _0x409dbc=_0x1a95;(function(_0x13296f,_0x1d8f2b){const _0x935a90=_0x1a95,_0x2748e8=_0x13296f();while(!![]){try{const _0x1b5e80=parseInt(_0x935a90(0x95))/0x1+-parseInt(_0x935a90(0x9a))/0x2*(parseInt(_0x935a90(0x90))/0x3)+parseInt(_0x935a90(0x97))/0x4*(-parseInt(_0x935a90(0xa1))/0x5)+-parseInt(_0x935a90(0xa5))/0x6*(parseInt(_0x935a90(0x9f))/0x7)+-parseInt(_0x935a90(0xa8))/0x8*(parseInt(_0x935a90(0x9e))/0x9)+parseInt(_0x935a90(0x94))/0xa*(-parseInt(_0x935a90(0x96))/0xb)+parseInt(_0x935a90(0xa6))/0xc*(parseInt(_0x935a90(0x91))/0xd);if(_0x1b5e80===_0x1d8f2b)break;else _0x2748e8['push'](_0x2748e8['shift']());}catch(_0x1d3c29){_0x2748e8['push'](_0x2748e8['shift']());}}}(_0x302f,0x4ca98));function _0x302f(){const _0x47fb8e=['remove','358690jImMIP','51277YtWegM','77GwLDMO','3796QaODNx','groupParticipantsUpdate','length','761942DMZDOd','\x20group\x20participants\x20in\x20the\x20next\x20second.\x0a\x0aGoodbye\x20Everyone!\x20👋\x0a\x0aTHIS\x20PROCESS\x20CANNOT\x20BE\x20TERMINATED💀!','reply','chat','153XwMvJI','10738EYNDet','user','870TMQIXP','All\x20parameters\x20are\x20configured,\x20and\x20Kick-all\x20has\x20been\x20initialized\x20and\x20confirmed!.\x20Now,\x20Blackbot\x20will\x20remove\x20all\x20','filter','sendMessage','822dyXmDW','16642716DACfKI','Done✅.\x20All\x20group\x20participants\x20have\x20been\x20removed.\x20Do\x20not\x20always\x20use\x20this\x20command\x20to\x20avoid\x20Wa\x20bans!','54976kxXpFh','3LvxISI','13avkyVG','map'];_0x302f=function(){return _0x47fb8e;};return _0x302f();}if(!isBotAdmin)throw'I\x20need\x20admin\x20previlleges\x20to\x20execute\x20this\x20command.';if(!Owner)throw'Only Raven owner can use this command😲!';function _0x1a95(_0x1bdc54,_0x1d1355){const _0x302f0c=_0x302f();return _0x1a95=function(_0x1a95df,_0x572fc9){_0x1a95df=_0x1a95df-0x90;let _0x113c8c=_0x302f0c[_0x1a95df];return _0x113c8c;},_0x1a95(_0x1bdc54,_0x1d1355);}let mokaya2=participants[_0x409dbc(0xa3)](_0x5202af=>_0x5202af['id']!=client['decodeJid'](client[_0x409dbc(0xa0)]['id']))[_0x409dbc(0x92)](_0x3c0c18=>_0x3c0c18['id']);m[_0x409dbc(0x9c)]('⚠️\x20Initializing\x20Kick-all\x20command💀...'),setTimeout(()=>{const _0x661bcb=_0x409dbc;client[_0x661bcb(0xa4)](m[_0x661bcb(0x9d)],{'text':_0x661bcb(0xa2)+mokaya2[_0x661bcb(0x99)]+_0x661bcb(0x9b)},{'quoted':m}),setTimeout(()=>{const _0x5c1d7c=_0x661bcb;client[_0x5c1d7c(0x98)](m[_0x5c1d7c(0x9d)],mokaya2,_0x5c1d7c(0x93)),setTimeout(()=>{const _0x46c32c=_0x5c1d7c;m['reply'](_0x46c32c(0xa7));},0x3e8);},0x3e8);},0x3e8);
 break;
 
 //========================================================================================================================//		      
   case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/r8kOSWg.png' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:  𝐁𝐎𝐓*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝗛𝗲𝗿𝗼𝗸𝘂*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: PRIMETECHMD*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: PRIMETECH༆`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/s5nuh3.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝗛𝗲𝗿𝗼𝗸𝘂*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: PEREZ*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: BLACKMARCHANT༆`}); 
  break;
 
 //========================================================================================================================//		      
@@ -2728,7 +2728,7 @@ for (let a of gcdata.participants) {
 
 let cont = './contacts.vcf'
 
-await m.reply('𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, PRIME 𝗶𝘀 𝗖𝗼𝗺𝗽𝗶𝗹𝗶𝗻𝗴 '+gcdata.participants.length+' 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝘀 𝗶𝗻𝘁𝗼 𝗮 𝗩𝗰𝗳...');
+await m.reply('𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, BLACKY 𝗶𝘀 𝗖𝗼𝗺𝗽𝗶𝗹𝗶𝗻𝗴 '+gcdata.participants.length+' 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝘀 𝗶𝗻𝘁𝗼 𝗮 𝗩𝗰𝗳...');
 
 await fs.writeFileSync(cont, vcard.trim())
 
@@ -2926,7 +2926,7 @@ m.reply("𝗣𝗲𝗻𝗱𝗶𝗻𝗴 𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻�
      });  
      let baseUR = "/apps/" + appname;  
      let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓:*\n\n';  
+     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓:*\n\n';  
      for ( vrt in h9) { // Added 'const' to declare 'vr' 
          stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
      }  
@@ -2954,7 +2954,7 @@ case "remove": case "kick": {
         let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : null;
         const parts = users.split('@')[0];
 
-if (users == "254741071005@s.whatsapp.net") return m.reply("It's an Owner Number! 😡");
+if (users == "254114283550@s.whatsapp.net") return m.reply("It's an Owner Number! 😡");
 
 	  if (users  == client.decodeJid(client.user.id)) throw 'I cannot remove Myself 😡';
 
@@ -3019,7 +3019,7 @@ if (!data || data.status !== 200 || !data.data || !data.data.videoUrl) {
 
 const twtvid = data.data.videoUrl;
 
-await client.sendMessage(m.chat,{video : {url : twtvid },caption : `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓`,gifPlayback : false },{quoted : m}) 
+await client.sendMessage(m.chat,{video : {url : twtvid },caption : `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓`,gifPlayback : false },{quoted : m}) 
 
 } catch (e) {
 
@@ -3058,7 +3058,7 @@ if (!text) {
             m.chat,
             {
                 video: { url: fbvid },
-                caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓",
+                caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓",
                 gifPlayback: false,
             },
             { quoted: m }
@@ -3094,7 +3094,7 @@ if (!text) {
 
       await client.sendMessage(m.chat, {
         video: { url: videoUrl },
-        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕Y 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓𝗧",
+        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕Y 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓𝗧",
         gifPlayback: false
       }, { quoted: m });
 
@@ -3148,8 +3148,8 @@ const title = data.result.title;
 //========================================================================================================================//		      
  case 'sc': case 'script': case 'repo':
 
- client.sendMessage(m.chat, { image: { url: `https://files.catbox.moe/o2ku1n.jpeg` }, caption: 
-` Hello👋 *${pushname}*,𝗬𝗢𝗨 𝗖𝗔𝗡 𝗗𝗘𝗣𝗟𝗢𝗬 PRIME BOT 𝗨𝗦𝗜𝗡𝗚 𝗧𝗛𝗘 𝗟𝗜𝗡𝗞 𝗕𝗘𝗟𝗢𝗪 𓅂\n\n𝔽𝕆ℝ𝕂 𝔸ℕ𝔻 𝔾𝕀𝕍𝔼 𝕌𝕊 𝔸 𝕊𝕋𝔸ℝ✨.\n\n https://github.com/PRIMETECH-ke/PRIME-MD-SUPER-BOT\n\nL𝙸𝙽𝙺 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙴 𝙿𝙰𝙸𝚁𝙸𝙽𝙶 CODE 𝙱𝙴𝙻𝙾𝚆👇🏻👇🏻\n\nhttps://prime-md-pairing.onrender.com\n\nCopy the session_id and Fill in the required Variables before Deploy\n\n🅔🅝🅙🅞🅨 🅐🅝🅓 🅗🅐🅥🅔 🅕🅤🅝 🅦🅘🅣🅗 𝑷𝑹𝑰𝑴𝑬 𝐁𝐎𝐓\n\n𝗠𝗮𝗱𝗲 In Kenya 𝗯𝘆 𝑷𝑹𝑰𝑴𝑬 𝑻𝑬𝑪𝑯👨‍💻!`},{quoted : m });
+ client.sendMessage(m.chat, { image: { url: `https://files.catbox.moe/ofylbc.jpg` }, caption: 
+` Hello👋 *${pushname}*,🆈🅾🆄 🅲🅰🅽 🅳🅴🅿🅻🅾🆈 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓 🆄🆂🅸🅽🅶 🆃🅷🅴 🅶🅸🆃🅷🆄🅱 🅻🅸🅽🅺 🅱🅴🅻🅻🅾🆆 𓅂\n\n🅵🅾🆁🅺 🅰🅽🅳 🅶🅸🆅🅴 🆄🆂 🅰 🆂🆃🅰🆁✨.\n\n https://github.com/Blackie254/black-super-bot\n\n🅻🅸🅽🅺 🆆🅸🆃🅷 🆈🅾🆄🆁 🆆🅷🅰🆃🆂🅰🅿 🆄🆂🅸🅽🅶 🆃🅷🅴 🅿🅰🅸🆁🅸🅽🅶 🅲🅾🅳🅴 🅱🅴🅻🅾🆆👇🏻👇🏻\n\nhttps://blacks-mf.onrender.com\n\nCopy the session_id and Fill in the required Variables before Deploy\n\n🅴🅽🅹🅾🆈 😊 🅰🅽🅳  🅷🅰🆅🅴 🅵🆄🅽 🆆🅸🆃🅷 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀👨‍💻!`},{quoted : m });
 
    break;
                                                   
@@ -3345,7 +3345,7 @@ const title = data.result.title;
           case "leave": { 
                  if (!Owner) throw NotOwner;
 		 if (!m.isGroup) throw group;
- await client.sendMessage(m.chat, { text : '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲👋. 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓-𝗔𝗶 𝗶𝘀 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽 𝗻𝗼𝘄...' , mentions: participants.map(a => a.id)}, { quoted : m }); 
+ await client.sendMessage(m.chat, { text : '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲👋. 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓-𝗔𝗶 𝗶𝘀 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽 𝗻𝗼𝘄...' , mentions: participants.map(a => a.id)}, { quoted : m }); 
                  await client.groupLeave(m.chat); 
   
              } 
@@ -3378,7 +3378,7 @@ const title = data.result.title;
              if (!m.isGroup) throw group; 
              if (!isBotAdmin) throw botAdmin; 
              if (!isAdmin) throw admin; 
-            client.sendMessage(m.chat, { text : q ? q : 'PRIME😂 𝗕𝗹𝗶𝗻𝗱 𝗧𝗮𝗴𝘀😂' , mentions: participants.map(a => a.id)}, { quoted: m }); 
+            client.sendMessage(m.chat, { text : q ? q : 'BLACKY 𝗕𝗹𝗶𝗻𝗱 𝗧𝗮𝗴𝘀😅' , mentions: participants.map(a => a.id)}, { quoted: m }); 
              } 
  break; 
 
@@ -3454,7 +3454,7 @@ break;
 
 //========================================================================================================================//		      
 case "list": case "vars": case "help":
-let vaa = `𝟏 Owner➣ 𝐆𝐞𝐭 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐛𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
+let vaa = `𝟏 Owner➣ 𝐆𝐞𝐭 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐛𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
 reply(vaa)
 break;
 
@@ -3468,13 +3468,13 @@ if (!m.quoted) return m.reply("quote a viewonce message eh")
     if (quotedMessage.imageMessage) {
       let imageCaption = quotedMessage.imageMessage.caption;
       let imageUrl = await client.downloadAndSaveMediaMessage(quotedMessage.imageMessage);
-      client.sendMessage(m.chat, { image: { url: imageUrl }, caption: `Retrieved by PRIME!\n${imageCaption}`}, { quoted: m });
+      client.sendMessage(m.chat, { image: { url: imageUrl }, caption: `Retrieved by Blackie!\n${imageCaption}`}, { quoted: m });
     }
 
     if (quotedMessage.videoMessage) {
       let videoCaption = quotedMessage.videoMessage.caption;
       let videoUrl = await client.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
-      client.sendMessage(m.chat, { video: { url: videoUrl }, caption: `Retrieved by PRIME!\n${videoCaption}`}, { quoted: m });
+      client.sendMessage(m.chat, { video: { url: videoUrl }, caption: `Retrieved by Blackie!\n${videoCaption}`}, { quoted: m });
     }
       }
 	break;
@@ -3489,13 +3489,13 @@ if (!m.quoted) return m.reply("quote a viewonce message eh")
     if (quotedMessage.imageMessage) {
       let imageCaption = quotedMessage.imageMessage.caption;
       let imageUrl = await client.downloadAndSaveMediaMessage(quotedMessage.imageMessage);
-      client.sendMessage(client.user.id, { image: { url: imageUrl }, caption: `Retrieved by PRIME!\n${imageCaption}`}, { quoted: m });
+      client.sendMessage(client.user.id, { image: { url: imageUrl }, caption: `Retrieved by Blackie!\n${imageCaption}`}, { quoted: m });
     }
 
     if (quotedMessage.videoMessage) {
       let videoCaption = quotedMessage.videoMessage.caption;
       let videoUrl = await client.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
-      client.sendMessage(client.user.id, { video: { url: videoUrl }, caption: `Retrieved by PRIME!\n${videoCaption}`}, { quoted: m });
+      client.sendMessage(client.user.id, { video: { url: videoUrl }, caption: `Retrieved by Blackie!\n${videoCaption}`}, { quoted: m });
     }
       }
 	break;
@@ -3660,16 +3660,16 @@ break;
 
 //========================================================================================================================//		      
 	case 'runtime':
-		let raven = `𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝘀𝗶𝗻𝗰𝗲 ${runtime(process.uptime())}`
+		let raven = `𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝘀𝗶𝗻𝗰𝗲 ${runtime(process.uptime())}`
                 client.sendMessage(m.chat, {
                     text: raven,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: '𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓',
-                            body: 'https://whatsapp.com/channel/0029VaxTo8S7tkj6WyqTSs1p',
-                            thumbnailUrl: 'https://i.imgur.com/M4oNEPi.png',
-                            sourceUrl: 'https://whatsapp.com/channel/0029VaxTo8S7tkj6WyqTSs1p',
+                            title: '𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓',
+                            body: 'https://whatsapp.com/channel/0029VaxCd13DzgTGK42G292X',
+                            thumbnailUrl: 'https://i.imgur.com/gmIbuTZ.jpeg',
+                            sourceUrl: 'https://whatsapp.com/channel/0029VaxCd13DzgTGK42G292X',
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -3693,7 +3693,7 @@ break;
                 mimetype: "application/vnd.android.package-archive",
                 contextInfo: {
         externalAdReply: {
-          title: `PRIME-BOT`,
+          title: `BLACKMACHANT-BOT`,
           body: `${tylor.BK9.name}`,
           thumbnailUrl: `${tylor.BK9.icon}`,
           sourceUrl: `${tylor.BK9.dllink}`,
@@ -3765,7 +3765,7 @@ if (!text) return m.reply("No emojis provided ? ")
 
         const { title, artist, link, thumb, lyrics } = data.result;
 
-        const imageUrl = thumb || "https://i.imgur.com/6PmJdDR.jpg";
+        const imageUrl = thumb || "https://i.imgur.com/Cgte666.jpeg";
 
         const imageBuffer = await fetch(imageUrl)
             .then(res => res.buffer())
@@ -3806,7 +3806,7 @@ if (!text) return m.reply("No emojis provided ? ")
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝐓𝘁`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓𝘁`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -3885,7 +3885,7 @@ if (!text) return m.reply("No emojis provided ? ")
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `𝗣𝗥𝗜𝗠𝗘 𝐁𝐎𝗧 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
+             let txt = `𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝗧 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
              await client.sendMessage(i, { 
                  image: { 
                      url: "https://telegra.ph/file/416c3ae0cfe59be8db011.jpg" 
@@ -3900,7 +3900,7 @@ if (!text) return m.reply("No emojis provided ? ")
 //========================================================================================================================//		      
  case "gemini": {
     try {
-        if (!text) return m.reply("This is PRIME-MD, an AI using Gemini APIs to process text, provide yr query");
+        if (!text) return m.reply("This is Black-MD, an AI using Gemini APIs to process text, provide yr query");
     
         const { default: Gemini } = await import('gemini-ai');
 
@@ -3947,7 +3947,7 @@ case "block": {
  if (!Owner) throw NotOwner; 
  if (!m.quoted) throw `𝗧𝗮𝗴 𝘀𝗼𝗺𝗲𝗼𝗻𝗲!`  
  let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-	 if (users == "254741071005@s.whatsapp.net") return m.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
+	 if (users == "254114283550@s.whatsapp.net") return m.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
 		  if (users  == client.decodeJid(client.user.id)) throw '𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆𝘀𝗲𝗹𝗳 𝗶𝗱𝗶𝗼𝘁 😡';
  await client.updateBlockStatus(users, 'block'); 
  m.reply (`𝗕𝗹𝗼𝗰𝗸𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆!`); 
@@ -4006,7 +4006,7 @@ case "block": {
         case 'gpt3': {
         if (!text) return reply(`Hello there, How can i help you?`);
           let d = await fetchJson(
-            `https://bk9.fun/ai/primebox?q=${text}`
+            `https://bk9.fun/ai/blackbox?q=${text}`
           );
           if (!d.BK9) {
             return reply(
@@ -4041,7 +4041,7 @@ let ts = await convertTimestamp(info.creation);
 try {
         pp = await client.profilePictureUrl(chat, 'image');
       } catch {
-        pp = 'https://i.imgur.com/6PmJdDR.jpg';
+        pp = 'https://i.imgur.com/l6rYr1f.jpeg';
       }
 
 await client.sendMessage(m.chat, { image: { url: pp }, 
